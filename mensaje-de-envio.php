@@ -31,11 +31,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <?php
-                $nombre = $_POST['name'];
-                $correo = $_POST['email'];
-                $mensaje = $_POST['message']; 
-            ?>
+        
             <div class="col-12">
                 <img src="img/mayanextreme.png" class="img-fluid mx-auto d-block" alt="" srcset="">
                 <p><?php echo $nombre." ".$correo." ".$mensaje;?></p>
