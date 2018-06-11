@@ -31,9 +31,14 @@
 <body>
     <div class="container">
         <div class="row">
+            <?php
+                $nombre = $_POST['name'];
+                $correo = $_POST['email'];
+                $mensaje = $_POST['message']; 
+            ?>
             <div class="col-12">
                 <img src="img/mayanextreme.png" class="img-fluid mx-auto d-block" alt="" srcset="">
-                <p>Thank you, we are procesing your contact form and we will give you  an answer as soon as posible.</p>
+                <p><?php echo $nombre." ".$correo." ".$mensaje;?></p>
                 <a href="/" class="mx-auto d-block">Go back to home</a>
             </div>
         </div>
