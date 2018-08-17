@@ -1,0 +1,145 @@
+#home{
+    background-color: black;
+    background-position: center;
+    background-size :cover;
+    overflow-x: hidden;
+}
+
+.html5-video{
+    display: block;
+}
+.text-white{
+    color: #ffff !important;
+}
+.text-center{
+    text-align: center;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-start{
+    justify-content: start;
+}
+.d-flex{
+    display: flex !important;
+}
+.fullscreen-section{
+    z-index: 3;
+}
+#home{
+    height: 700px !important;
+}
+.caption-text{
+    position: absolute;
+    z-index: 3;
+    bottom: 40%;
+    left: 10%;
+}
+.bkg-gray{
+    background-color:#666 ;
+}
+.img-fluid{
+    width: 100% !important;
+    height: auto !important;
+}
+#map{
+    width: 100%;
+    height: 100%;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.bkg-ranked{
+    background-image: url(../images/habano/ranked.png);
+}
+.d-none{
+    display: none !important;
+}
+.d-block{
+    display: block;
+}
+#videohome{
+    display: block !important;
+}
+.slider{
+    display: none !important;
+}
+/*// Extra small devices (portrait phones, less than 576px)*/
+/*// No media query since this is the default in Bootstrap*/
+/*// Medium devices (tablets, 768px and down)*/
+@media (max-width: 767px) {
+    .bkg-banner{
+        background-image: url(../images/habano/banner.png);
+        height: 500px !important;
+    }
+    .d-md-block{
+        display: block !important;
+    }
+    .d-md-none{
+        display: none !important;
+    }
+
+}
+.z-index-10{
+    z-index: 10;
+}
+/*// Large devices (desktops, 992px and down)*/
+@media (max-width: 992px) {
+    #videohome{
+        display: none !important;
+    }
+    #home{
+        background-image: url(../images/habano/slider.png);
+    }
+    .html5-video{
+        display: none;
+    }
+}
+/*// Small devices (landscape phones, 576px and down)*/
+@media (max-width: 576px) {  }
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .overlaypattern{
+        display: block;
+    }
+    .bkg-banner{
+        background-image: url(../images/habano/banner.png);
+        height: 1020px;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {  }
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {  }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {  }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {  }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+@media (max-width: 950px) {
+
+
+
+}
