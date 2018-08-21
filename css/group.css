@@ -1,0 +1,22 @@
+#videohome{
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100%;
+    height: auto;
+}
+.html5-video{
+    display: block;
+}
+#home{
+    background-color: black;
+    background-position: center;
+    background-size :cover;
+    overflow-x: hidden;
+}
+.horizon {
+     opacity: 1;
+     visibility: visible;
+}
+.grid-container .grid {
+    visibility: visible;
+}
