@@ -1,0 +1,27 @@
+{% extends 'main.twig' %}
+
+{% block extracss %}
+     <!-- Font -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CRaleway:300,400,600,700' rel='stylesheet' type='text/css'>
+
+        <!-- Css -->
+        <link rel="stylesheet" href="css/core.min.css" />
+        <link rel="stylesheet" href="css/skin-barber-shop-one-page.css" />
+        <link rel="stylesheet" href="css/home.css"/>
+        <!--[if lt IE 9]-->
+        <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <!--[endif]-->
+{% endblock %}
+{% block content %}
+	{% include './componentsDestination/navbar.twig' %}
+	{% include './componentsDestination/content.php' %}
+	{% include './componentsDestination/footer.php' %}
+{% endblock %}
+    
+{% block extrajs %}
+    <!-- Js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX4V8ZT70JCVuPsgTCHxXt2FIclqgfyLk&callback=initMap" async defer></script>
+    <script src="js/timber.master.min.js"></script>
+{% endblock %}

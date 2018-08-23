@@ -1,0 +1,409 @@
+ <!-- Content -->
+        <div class="content clearfix">
+
+            <!-- Fullscreen Slider Section -->
+            <section id="home" class="section-block featured-media window-height tm-slider-parallax-container">
+                <div class="tm-slider-container full-width-slider" data-featured-slider data-parallax data-animation="scaleIn" data-speed="1400" data-scale-under="960">
+                    <ul class="tms-slides">
+                        <li class="tms-slide" data-video data-video-bkg data-overlay-bkg-color="#000000" data-overlay-bkg-opacity="0.4">
+                            <div class="tms-content">
+                                <div class="tms-content-inner right right-on-mobile v-align-middle">
+                                    <div class="row">
+                                        <div class="column width-12">
+
+                                            <!--<a href="#" class="tms-caption  medium "-->
+                                            <!--data-animate-in="preset:slideInUpShort;duration:800ms;delay:1000ms;"-->
+                                            <!--data-no-scale>-->
+                                            <!--</a>-->
+                                            <h1 class="tms-caption color-white title-large weight-bold mb-20" data-no-scale data-animate-in="preset:slideInUpShort;duration:800ms;delay:100ms;">
+                                                THE CUBAN SPOT <br>IN COZUMEL
+                                            </h1>
+                                            <div class="clear"></div>
+                                            <p class="tms-caption color-white title-medium weight-light mb-10" data-no-scale data-animate-in="preset:slideInUpShort;duration:800ms;delay:400ms;">
+                                                Create beautiful hero sections
+                                            </p>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <video  autoplay loop muted data-keepplaying id="videohome" >
+                                <source type="video/mp4" src="images/video/casa_habano.mp4" />
+                                <source type="video/webm" src="images/video/casa_habano.webm" />
+                            </video>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Fullscreen Slider Section End -->
+            <!-- About -->
+            <div id="about" class="section-block replicable-content bkg-grey-ultralight">
+                <div class="row">
+                    <div class="column width-4 left">
+                        <h2 class="mb-30">About Us</h2>
+                        <p class="lead mb-30">A local barber shop that was created by two friends in 1996. Our motto: Keeping it oldschool and handsome.</p>
+                        <p class="mb-40">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <h5 class="mb-10">Open Hours:</h5>
+                        <ul class="text-uppercase font-alt-1 list-unstyled">
+                            <li>Mon-Fri: 8 AM - 5 PM</li>
+                            <li>Saturday: 9 AM - 3 PM</li>
+                            <li>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                    <div class="column width-8">
+                        <div class="row content-grid-2">
+                            <div class="grid-item horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;" data-threshold="0.3">
+                                <div class="thumbnail no-margin-bottom" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+                                    <img src="images/habano/about.png" width="760" height="500" alt=""/>
+                                </div>
+                            </div>
+                            <div class="grid-item horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;delay:300ms;" data-threshold="0.3">
+                                <div class="thumbnail no-margin-bottom" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+                                    <img src="images/habano/about_2.png" width="760" height="500" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- History Section -->
+            <div id="history" class="section-block replicable-content bkg-grey-ultralight">
+                <div class="row">
+                    <div class="column width-6 ">
+                        <h2>HISTORY</h2>
+                        <h3>Because of the unique aroma and taste that tobacco gets because from its geographical location, Cuban tobacco is considered to be the best in the world.</h3>
+                    </div>
+                    <div class="column width-6 ">
+                       <p >Indigenous people in America had been using tobacco before the Spaniard’s arrival. Actually,
+                           the word cigar originally derives from the Mayan sikar ("to smoke rolled tobacco leaves" –
+                           from si'c, "tobacco"). The Spanish word, "puro" spans the gap between the Mayan and modern use.
+                       </p>
+                       <p > Because of the unique aroma and taste that tobacco gets because from its geographical location,
+                           Cuban tobacco is considered to be the best in the world. Nevertheless, other other countries with
+                           great tobacco are Dominican Republic, Nicaragua and Honduras.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-block grid-container fade-in-progressively full-width no-margins no-padding" data-layout-mode="masonry" data-grid-ratio="1" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="0.8">
+                <div class="row">
+                    <div class="column width-12">
+                        <div class="row grid content-grid-3">
+                            <div class="grid-item development">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link lightbox-link" >
+                                        <img src="images/habano/cultivo.png" class="img-fluid" alt=""/>
+                                        <span class="overlay-info">
+                                                <span>
+                                                    <span>
+                                                        <span>
+                                                            <span class="project-title">Banana Republik</span>
+                                                            <span class="project-description">design/illstration</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid-item grid-sizer design">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link lightbox-link" >
+                                        <img src="images/habano/beneficio.png" alt=""/>
+                                        <span class="overlay-info center">
+                                                <span>
+                                                    <span>
+                                                        <span>
+                                                            <span class="project-title">The Adventure</span>
+                                                            <span class="project-description">identity/illustration</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid-item illutration">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link lightbox-link" >
+                                        <img src="images/habano/anejamineto.png" class="img-fluid" alt=""/>
+                                        <span class="overlay-info">
+                                                <span>
+                                                    <span>
+                                                        <span>
+                                                            <span class="project-title">I Travel</span>
+                                                            <span class="project-description">iOS app</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid-item design illustration">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link lightbox-link" >
+                                        <img src="images/habano/elaboracion.png" class="img-fluid" alt=""/>
+                                        <span class="overlay-info">
+                                                <span>
+                                                    <span>
+                                                        <span>
+                                                            <span class="project-title">Miller Jackson</span>
+                                                            <span class="project-description">identity</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid-item illustration">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link lightbox-link" >
+                                        <img src="images/habano/terminado.png" class="img-fluid" alt=""/>
+                                        <span class="overlay-info">
+                                                <span>
+                                                    <span>
+                                                        <span>
+                                                            <span class="project-title">Rockabilly</span>
+                                                            <span class="project-description">identity</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="grid-item development">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link lightbox-link" data-group="project-6" data-caption="Weird I Am - Clothing" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-6-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-6-square.jpg" data-lightbox-animation="slideInBottom">
+                                        <img src="images/habano/origen.png" alt=""/>
+                                        <span class="overlay-info">
+                                                <span>
+                                                    <span>
+                                                        <span>
+                                                            <span class="project-title">Weird I Am</span>
+                                                            <span class="project-description">identity</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- History Section End -->
+
+            <!-- Brands  Section-->
+            <div id="brands" class="section-block replicable-content bkg-grey-ultralight">
+                <div class="row">
+                    <div class="column width-6 offset-3 center">
+                        <h2 class="mb-50 text-center">BRANDS</h2>
+                    </div>
+                    <div class="column width-12 ">
+                        <p class="text-center">Being the only authorized distributor of Habanos S.A, we not only have the best brands, but we have ALL  brands of Cuban cigars.
+                            Among the brands that we handle are Cohiba, Montecristo, Partagás, Romeo and Julieta, Hoyo de Monterrey,
+                            H. Upmann and all the others. To know the characteristics of each of the Cuban cigar brands, read this article (link).
+All our cigars are authentic Cuban cigars and have all the security elements of Habanos S.A. (link) to avoid piracy.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Brands Section End -->
+
+            <!-- Banner Brands Section -->
+            <div  class="section-block fullscreen-section  bkg-banner">
+                <div class="background-image-wrapper">
+                    <div class="background-image bkg-image-1">
+                        <div class="caption-text">
+                            <div class="row ">
+                                <div class="column width-12">
+                                    <h2 class="text-white"><b>A NEW EXPERIENCE</b></h2>
+                                    <h5 class="text-white">Keeping the modern man handsome since '96. The <br> only true American Barber Shop in New York City.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Banner Brands Section End -->
+
+                <!-- Experiences Section -->
+            <div  id="experiences" class="section-block grid-container fade-in-progressively full-width no-margins no-padding bkg-charcoal" data-layout-mode="masonry" data-grid-ratio="1" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="0.8">
+                <div class="row">
+                    <div class="column width-12">
+                        <div class="row grid content-grid-4">
+                            <div class="grid-item">
+                                <div class="thumbnail">
+                                    <img src="images/habano/experiences6.png" class="img-fluid" alt=""/>
+                                </div>
+                            </div>
+                            <div class="grid-item grid-sizer">
+                                <div class="thumbnail">
+                                    <img src="images/habano/experiences7.png" class="img-fluid" alt=""/>
+                                </div>
+                            </div>
+                            <div class="grid-item large grid-sizer bkg-charcoal color-white">
+                                <div class="content-outer">
+                                    <div class="content-inner">
+                                        <div class="row">
+                                            <div class="column width-8 offset-2 center">
+                                                <h2>A New Experience</h2>
+                                                <p class="lead color-white">Keeping the modern man handsome since '96. The only true American Barber Shop in New York City.</p>
+                                                <div class="row">
+                                                    <div class="column width-10 offset-1">
+                                                    </div>
+                                                </div>
+                                                <p class="opacity-05 weight-bold no-margin-bottom">Joseph Sartre</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="thumbnail">
+                                    <img src="images/habano/experiences8.png" class="img-fluid" alt=""/>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="thumbnail">
+                                    <img src="images/habano/experiences9.png" class="img-fluid" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Experiences Section  End -->
+
+            <!-- Store Grid -->
+            <div id="store"  class="section-block team-2 bkg-grey-ultralight">
+                <div class="row horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;" data-threshold="0.2">
+                    <div class="column width-12 color-white mb-50">
+                        <h2 class="mb-50 text-center color-greyblack">STORE</h2>
+                        <p class="text-center color-greylight">At our stores, you will be able to enjoy from your cigar in a comfortable place that will resemble the lounge of a luxurious hotel of New York.<br>
+                            In all of our locations our personnel will be more than happy to serve you in the most professional and attentive way.<br>
+                            Please visit our locations (link a la página de locales) page to get to know the unique features of each of our stores and their locations, service hours and phone numbers.
+                        </p>
+                    </div>
+                    <div class="column width-12">
+                        <div class="row content-grid-4">
+                            <div class="grid-item">
+                                <div class="team-content">
+                                    <div class="thumbnail no-margin-bottom img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+                                        <a class="overlay-link fade-location" href="cozumel.php">
+                                            <img src="images/habano/cozumel.png" alt="team memeber 1" width="760" height="500"/>
+                                            <span class="overlay-info">
+                                                    <span>
+                                                        <span>
+                                                            <span>Visit Now</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                        </a>
+                                    </div>
+                                    <div class="team-content-info">
+                                        <h5 class="mb-5">COZUMEL</h5>
+
+                                        <p>Benito Juárez No1 Centro Cozumel<br>
+                                            Q. ROO C.P 77600
+                                            Entre AVD Rafael E Melgar y calle  5TA
+                                            Telefono: 987 8689-1696<br>
+                                            <a href="#">Ver el mapa de Google</a>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="team-content">
+                                    <div class="thumbnail no-margin-bottom img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+                                        <a class="overlay-link fade-location" href="cancun.php">
+                                            <img src="images/habano/cancun.png" alt="team memeber 1" width="760" height="500"/>
+                                            <span class="overlay-info">
+                                                    <span>
+                                                        <span>
+                                                            <span>Visit Now</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                        </a>
+                                    </div>
+                                    <div class="team-content-info">
+                                        <h5 class="mb-5">CANCUN</h5>
+                                        <p>BLVD Kukulkan No 3, 4 Y 5 Km12.7<br>
+                                            Zona Hotelera Cancun Q.ROO C.P 77500<br>
+                                            Teléfono: 998 8407000 y 998 8407001<br>
+                                            <a href="#">Ver el mapa de Google</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="team-content">
+                                    <div class="thumbnail no-margin-bottom img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+                                        <a class="overlay-link fade-location" href="cabos.php">
+                                            <img src="images/habano/cabos.png" alt="team memeber 1" width="760" height="500"/>
+                                            <span class="overlay-info">
+                                                    <span>
+                                                        <span>
+                                                            <span>Visit Now</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                        </a>
+                                    </div>
+                                    <div class="team-content-info">
+                                        <h5 class="mb-5">LOS CABOS</h5>
+                                        <p>
+                                            BLVD Lázaro Cardena S/N LocalL L-41-A<br>
+                                            El Medado Cabos San Lucas C.P 23410<br>
+                                            Referencia: Plaza Comercial Puerto Paraiso<br>
+                                            Teléfono: 624 143-7533<br>
+                                            <a href="#">Ver el mapa de Google</a></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="team-content">
+                                    <div class="thumbnail no-margin-bottom img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+                                        <a class="overlay-link fade-location" href="tijuana.php">
+                                            <img src="images/habano/tijuana.png" alt="team memeber 1" width="760" height="500"/>
+                                            <span class="overlay-info">
+                                                    <span>
+                                                        <span>
+                                                            <span>Visit Now</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                        </a>
+                                    </div>
+                                    <div class="team-content-info">
+                                        <h5 class="mb-5">TIJUANA</h5>
+                                        <p>
+                                            Avenida Revolución No1115 INT 13 Zona Centro<br>
+                                            Tjuana B.C C.P 22000<br>
+                                            Telefono: 664 688-33-39 y 664 685-5248<br>
+                                            <a href="">Ver el mapa de Google</a></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Store Grid End -->
+
+   
+
+         
+        </div>
+        <!-- Content End -->

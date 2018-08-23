@@ -1,9 +1,9 @@
-#home{
-    background-color: black;
-    background-position: center;
-    background-size :cover;
-    overflow-x: hidden;
-}
+/*#home{*/
+    /*background-color: black;*/
+    /*background-position: center;*/
+    /*background-size :cover;*/
+    /*overflow-x: hidden;*/
+/*}*/
 
 .html5-video{
     display: block;
@@ -27,9 +27,7 @@
 .fullscreen-section{
     z-index: 3;
 }
-#home{
-    height: 700px !important;
-}
+
 .caption-text{
     position: absolute;
     z-index: 3;
@@ -92,9 +90,9 @@
     #videohome{
         display: none !important;
     }
-    #home{
-        background-image: url(../images/habano/slider.png);
-    }
+    /*#home{*/
+        /*background-image: url(../images/habano/slider.png);*/
+    /*}*/
     .html5-video{
         display: none;
     }
