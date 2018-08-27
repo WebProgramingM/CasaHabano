@@ -9,17 +9,12 @@
 		$cookieLang = "";
 		($lang == "es") ? $cookieLang = "Spanish" : (($lang == "pt") ? $cookieLang = "Portuguese" : $cookieLang = "English");
 		setcookie('lang', $cookieLang, time() + (86400 * 30));
-		// header("Location: /");
 	}
 	$cookie = (isset($_COOKIE["lang"])) ? $_COOKIE["lang"] : "";
 	if($cookie == "Spanish"){
 		$language = 'es';
 		include "array-espanol.php";
 	}
-	// else if($cookie == "Portuguese"){
-	//     $language = 'pt';
-	//     include "array-portugues.php";
-	// }
 	else {
 		$language = 'en';
 		include "array-ingles.php";

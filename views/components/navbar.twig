@@ -17,6 +17,12 @@
 							<a href="{{nav[1]}}" {% if index.loop == 1 %}data-offset="0" {% else %}data-offset="-60"{% endif %} class="scroll-link">{{nav[0]}}</a>
 						</li>
 					{% endfor %}
+                    <li>
+                        <a id="english"  onclick="changeEn(this)">EN</a>
+                    </li>
+                    <li>
+                        <a id="spanish" onclick="changeEsp(this)">ESP</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -56,6 +62,12 @@
 	                                    <a href="{{nav[1]}}" {% if index.loop == 1 %}data-offset="0" {% else %}data-offset="-60"{% endif %} class="scroll-link">{{nav[0]}}</a>
 	                                </li>
 								{% endfor %}
+                                <li>
+                                    <a class="langs" id="english" onclick="changeEn(this)">EN</a>
+                                </li>
+                                <li>
+                                    <a class="langs" id="spanish" onclick="changeEsp(this)">ESP</a>
+                                </li>
                             </ul>
                                 </li>
 

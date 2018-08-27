@@ -1,10 +1,11 @@
 <?php 
 require 'twig.php';
-
+$cookie =  $_COOKIE["adult"];
 $params = array(
-	'title' => 'Casa Habano | Cozumel',
+	'title' => 'Casa Habano | Tijuana',
 	'op'=>$op,
-	'content'=>$tijuana
+	'content'=>$tijuana,
+	'cookie'=>$cookie
 
 );
 $template = $twig->load('destination.twig');

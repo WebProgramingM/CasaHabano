@@ -1,0 +1,73 @@
+	<!-- Footer banner Section -->
+	<div   class="section-block stats-1 stats-1-1 center color-white bkg-footer">
+		<div class="row">
+			<div class="column width-4 offset-4">
+				<div class="stat">
+					<div class="stat-inner">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer banner Section End-->
+   <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top two-columns-on-tablet">
+            <div class="row flex">
+                <div class="column width-2 d-flex justify-content-center">
+                
+                    <ul class="social-list list-horizontal pull-right clear-float-on-mobile ">
+                          <li class=""><img src="images/habano/logo_habana_cigars.png" alt=""></li>
+                        <li class="mt-40"><img src="images/logo.png" alt=""></li>
+
+                    </ul>
+                </div>
+                 <div class="column width-4">
+                   <div class="widget">
+                        <h4 class="widget-title">CASA DEL HABANO {{content.titleFooter}}</h4>
+                        <ul class="list-group large">
+                            <li>
+                                <span class="post-info"><span class="post-date"> {{content.titleFooter}}</span></span>
+                                <span class="post-info"><span class="post-date"> Benito Juárez No1 Centro Cozumel</span></span>
+                                <a href="#">Ver el mapa de Google</a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column width-3">
+                    <div class="widget">
+                        <h4 class="widget-title">THE OTHER STORES</h4>
+                        <ul class="list-group large">
+                            {% for items in content.store %}
+                                <li>
+                                    <h4 class="post-info">{{items.title}}</h4>
+                                    <p class="post-info">{{items.address}}</p>
+                                    <a href="{{items.link}}">Ver el mapa de Google</a>
+                                </li>
+                            {% endfor %}
+                            
+                        </ul>
+                    </div>
+                </div>
+               <div class="column width-3">
+                    <div class="widget">
+                        <h4 class="widget-title">Useful Links</h4>
+                        <ul>
+                            <li>
+                                <a href="#">www.habanos.com</a>
+                            </li>
+                            <li>
+                                <a href="#">www.cohiba.com</a>
+                            </li>
+                            <li>
+                                <a href="#">www.partagas.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->

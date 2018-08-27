@@ -1,0 +1,230 @@
+ <!-- Content -->
+        <div class="content clearfix">
+
+            <!-- Fullscreen Slider Section -->
+            <section id="home" class="section-block featured-media window-height tm-slider-parallax-container">
+                <div class="tm-slider-container full-width-slider" data-featured-slider data-parallax data-animation="scaleIn" data-speed="1400" data-scale-under="960">
+                    <ul class="tms-slides">
+                        <li class="tms-slide" data-video data-video-bkg data-overlay-bkg-color="#000000" data-overlay-bkg-opacity="0.4">
+                            <div class="tms-content">
+                                <div class="tms-content-inner center center-on-mobile v-align-middle">
+                                    <div class="row">
+                                        <div class="column width-12">
+
+                                    
+                                             <img src="images/habano/logo_habana_cigars.png" class="logo-group left-0"   alt="">
+                                            <h1 class="tms-caption color-white title-large weight-bold mb-20" data-no-scale data-animate-in="preset:slideInUpShort;duration:800ms;delay:100ms;">
+                                               THE CUBAN SPOT IN MEXICO
+                                            </h1>
+                                            <div class="clear"></div>
+                                            <p class="tms-caption color-white title-medium weight-light mb-10" data-no-scale data-animate-in="preset:slideInUpShort;duration:800ms;delay:400ms;">
+                                                THE CIGAR EXPERTS OF MEXICO
+                                            </p>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <video  autoplay loop muted data-keepplaying id="videohome" >
+                                <source type="video/mp4" src="images/video/casa_habano.mp4" />
+                                <source type="video/webm" src="images/video/casa_habano.webm" />
+                            </video>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Fullscreen Slider Section End -->
+            <!-- About -->
+            <div id="about" class="section-block replicable-content bkg-grey-ultralight">
+                <div class="row">
+                    <div class="column width-4 left">
+                        <h2 class="mb-30">About Us</h2>
+                        {{content.content_About|raw}}
+                    </div>
+                    <div class="column width-8">
+                        <div class="row content-grid-2">
+                            <div class="grid-item horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;" data-threshold="0.3">
+                                <div class="thumbnail no-margin-bottom" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+                                    <img src="images/habano/about.png" width="760" height="500" alt=""/>
+                                </div>
+                            </div>
+                            <div class="grid-item horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;delay:300ms;" data-threshold="0.3">
+                                <div class="thumbnail no-margin-bottom" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+                                    <img src="images/habano/about_2.png" width="760" height="500" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- History Section -->
+            <div id="history" class="section-block replicable-content bkg-grey-ultralight">
+                <div class="row">
+                    <div class="column width-6 ">
+                        <h2>{{content.title_History}}</h2>
+                        <h3>{{content.content_History}}</h3>
+                    </div>
+                    <div class="column width-6 ">
+                       <p >{{content.content_History2}}
+                       </p>
+                       <p > {{content.content_History3}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-block grid-container fade-in-progressively full-width no-margins no-padding" data-layout-mode="masonry" data-grid-ratio="1" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="0.8">
+                <div class="row">
+                    <div class="column width-12">
+                        <div class="row grid content-grid-3">
+                            {% for item in content.images %}
+                                <div class="grid-item development">
+                                    <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                        <a class="overlay-link lightbox-link" >
+                                            <img src="{{item.img[0]}}" class="img-fluid" alt=""/>
+                                            <span class="overlay-info">
+                                                    <span>
+                                                        <span>
+                                                            <span>
+                                                                <span class="project-title">{{item.title}}</span>
+                                                                <span class="project-description">{{item.description}}</span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- History Section End -->
+
+            <!-- Brands  Section-->
+            <div id="brands" class="section-block replicable-content bkg-grey-ultralight">
+                <div class="row">
+                    <div class="column width-6 offset-3 center">
+                        <h2 class="mb-50 text-center">{{content.title_Brands}}</h2>
+                    </div>
+                    <div class="column width-12 ">
+                        <p class="text-center">{{content.content_Brands}}
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Brands Section End -->
+
+            <!-- Banner Brands Section -->
+            <div  class="section-block fullscreen-section bkg-brands">
+                <div class="background-image-wrapper">
+                    <div class="background-image bkg-image-1">
+                        <div class="caption-text">
+                            <div class="row ">
+                                <div class="column width-12">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Banner Brands Section End -->
+
+                <!-- Experiences Section -->
+            <div  id="experiences" class="section-block grid-container fade-in-progressively full-width no-margins no-padding bkg-charcoal" data-layout-mode="masonry" data-grid-ratio="1" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="0.8">
+                <div class="row">
+                    <div class="column width-12">
+                        <div class="row grid content-grid-4">
+                            <div class="grid-item">
+                                <div class="thumbnail">
+                                    <img src="images/habano/experiences6.png" class="img-fluid" alt=""/>
+                                </div>
+                            </div>
+                            <div class="grid-item grid-sizer">
+                                <div class="thumbnail">
+                                    <img src="images/habano/experiences7.png" class="img-fluid" alt=""/>
+                                </div>
+                            </div>
+                            <div class="grid-item large grid-sizer bkg-charcoal color-white">
+                                <div class="content-outer">
+                                    <div class="content-inner">
+                                        <div class="row">
+                                            <div class="column width-8 offset-2 center">
+                                                <h2>{{content.title_Experiences}}</h2>
+                                                <p class="lead color-white">{{content.content_Experiences}}</p>
+                                                <div class="row">
+                                                    <div class="column width-10 offset-1">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="thumbnail">
+                                    <img src="images/habano/experiences8.png" class="img-fluid" alt=""/>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="thumbnail">
+                                    <img src="images/habano/experiences9.png" class="img-fluid" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Experiences Section  End -->
+
+            <!-- Store Grid -->
+            <div id="store"  class="section-block team-2 bkg-grey-ultralight">
+                <div class="row horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;" data-threshold="0.2">
+                    <div class="column width-12 color-white mb-50">
+                        <h2 class="mb-50 text-center color-greyblack">{{content.title_Store}}</h2>
+                        <p class="text-center color-greylight">{{content.content_Store|raw}}
+                        </p>
+                    </div>
+                    <div class="column width-12">
+                        <div class="row content-grid-4">
+                            {% for stores in content.store %}
+                                
+                                <div class="grid-item">
+                                    <div class="team-content">
+                                        <div class="thumbnail no-margin-bottom img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+                                            <a class="overlay-link fade-location" href="{{stores.link}}">
+                                                <img src="{{stores.img[0]}}" alt="{{stores.img[1]}}" width="760" height="500"/>
+                                                <span class="overlay-info">
+                                                        <span>
+                                                            <span>
+                                                                <span>{{stores.visit}}</span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                            </a>
+                                        </div>
+                                        <div class="team-content-info">
+                                            <h5 class="mb-5">{{stores.title}}</h5>
+
+                                            <p>{{stores.description|raw}}
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Store Grid End -->
+
+   
+
+         
+        </div>
+        <!-- Content End -->

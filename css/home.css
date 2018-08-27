@@ -1,10 +1,10 @@
-/*#home{*/
-    /*background-color: black;*/
-    /*background-position: center;*/
-    /*background-size :cover;*/
-    /*overflow-x: hidden;*/
-/*}*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
 
+input[type=number] { -moz-appearance:textfield; }
 .html5-video{
     display: block;
 }
@@ -16,10 +16,16 @@
 }
 
 .justify-content-center{
-    justify-content: center;
+    justify-content: center !important;
 }
 .justify-content-start{
-    justify-content: start;
+    justify-content: start !important;
+}
+.left-auto{
+    left: auto !important;
+}
+.left-0{
+    left: 0 !important;
 }
 .d-flex{
     display: flex !important;
@@ -28,6 +34,24 @@
     z-index: 3;
 }
 
+.logo-cozumel{
+    width:400px !important;
+    height:100px !important;
+    margin-bottom: 40px !important;
+}
+.logo-cancun{
+    width:200px !important;
+    height:200px !important;
+    margin-bottom: 40px !important;   
+}
+.logo-group{
+    width:200px !important;
+    height:200px !important;
+    opacity: 1 !important; 
+}
+[data-video-bkg] img {
+    opacity: 1 !important;
+}
 .caption-text{
     position: absolute;
     z-index: 3;
@@ -51,7 +75,16 @@
 .float-left{
     float: left;
 }
-.bkg-ranked{
+.bkg-cancun{
+    background-image: url(../images/habano/ranked_cancun.png);
+}
+.bkg-tijuana{
+    background-image: url(../images/habano/ranked_tijuana.png);
+}
+.bkg-cabos{
+    background-image: url(../images/habano/ranked_cabos.png);
+}
+.bkg-cozumel{
     background-image: url(../images/habano/ranked.png);
 }
 .d-none{
@@ -60,19 +93,156 @@
 .d-block{
     display: block;
 }
-#videohome{
-    display: block !important;
-}
 .slider{
     display: none !important;
+}
+.Modal {
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.Modal-close:after {
+    content: "X";
+    font-weight: bold;
+    font-size: 30px;
+}
+.Modal-containers-1 img{
+    width:100%;
+    margin: 0;
+}
+.Modal-containers-2 img{
+    width:100%;
+    margin: 0;
+}
+.Modal-containers-1{
+    background-color: white;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 50%;
+}
+.Modal-containers-2{
+    max-width: 500px;
+    width: 60%;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40px;
+}
+.form-container{
+    padding: 2em;
+}
+.form-control{
+    border: none;
+    border-bottom: solid 1px #666;
+    transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+}
+.form-control:focus{
+    box-shadow: none;
+    outline: none;
+    border-bottom: solid 1px #282828;
+}
+#videohome{
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100%;
+    height: auto;
+}
+
+.bkg-footer{
+    background-image: url(../images/habano/bannerfooter.png);
+}
+footer{
+    background-color: #232323  !important;
+}
+#home{
+    background-color: black;
+    background-position: center;
+    background-size :cover;
+    overflow-x: hidden;
+}
+.horizon {
+     opacity: 1;
+     visibility: visible;
+}
+.grid-container .grid {
+    visibility: visible;
+}
+
+/*.row, body.boxed .wrapper-inner {*/
+    /*max-width: 150rem;*/
+/*}*/
+.text-center{
+    text-align: center !important;
+}
+.bkg-gray{
+    background-color:#666 ;
+}
+.color-greyblack{
+    color: #282828 !important;
+}
+.color-greylight{
+    color: #595a59 !important;
+}
+.img-fluid{
+    width: 100% !important;
+    height: auto !important;
+}
+.z-index-10{
+    z-index: 10;
+}
+.langs{
+    cursor: pointer;
+}
+#english,
+#spanish{
+    cursor: pointer;
 }
 /*// Extra small devices (portrait phones, less than 576px)*/
 /*// No media query since this is the default in Bootstrap*/
 /*// Medium devices (tablets, 768px and down)*/
 @media (max-width: 767px) {
-    .bkg-banner{
-        background-image: url(../images/habano/banner.png);
+    .bkg-brands{
+        background-image: url(../images/habano/brands.png);
         height: 500px !important;
+        z-index: 3;
+    }
+    .bkg-bannercozumel{
+        background-image: url(../images/habano/banner.png);
+        height: 700px;
+    }
+    .bkg-bannercancun{
+        background-image: url(../images/habano/bannercancun.png) center center;
+        height: 700px;
+    }
+      .bkg-bannertijuana{
+        background-image: url(../images/habano/bannertijuana.png);
+        height: 700px;
+    }
+      .bkg-bannercabos{
+        background-image: url(../images/habano/bannercabos.png);
+        height: 700px;
+    }
+   
+}
+/*// Medium devices (tablets, 768px and down)*/
+@media (max-width: 767px) {
+   .bkg-brands{
+        background-image: url(../images/habano/brands.png);
+        height: 500px !important;
+        z-index: 3;
     }
     .d-md-block{
         display: block !important;
@@ -82,20 +252,10 @@
     }
 
 }
-.z-index-10{
-    z-index: 10;
-}
+
 /*// Large devices (desktops, 992px and down)*/
 @media (max-width: 992px) {
-    #videohome{
-        display: none !important;
-    }
-    /*#home{*/
-        /*background-image: url(../images/habano/slider.png);*/
-    /*}*/
-    .html5-video{
-        display: none;
-    }
+
 }
 /*// Small devices (landscape phones, 576px and down)*/
 @media (max-width: 576px) {  }
@@ -107,9 +267,26 @@
     .overlaypattern{
         display: block;
     }
-    .bkg-banner{
+     .bkg-bannercozumel{
         background-image: url(../images/habano/banner.png);
         height: 1020px;
+    }
+    .bkg-bannercancun{
+        background-image: url(../images/habano/bannercancun.png);
+        height: 1020px;
+    }
+      .bkg-bannertijuana{
+        background-image: url(../images/habano/bannertijuana.png);
+        height: 1020px;
+    }
+      .bkg-bannercabos{
+        background-image: url(../images/habano/bannercabos.png);
+        height: 1020px;
+    }
+    .bkg-brands{
+        background-image: url(../images/habano/brands.png);
+        height: 560px;
+        z-index: 3;
     }
 }
 
@@ -122,7 +299,13 @@
 @media (min-width: 1200px) {  }
 
 /*// Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575px) {  }
+@media (max-width: 575px) { 
+	  .bkg-brands{
+        background-image: url(../images/habano/brandsmovil.jpg);
+        height: 900px !important;
+        z-index: 3;
+    }
+}
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {  }

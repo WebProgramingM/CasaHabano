@@ -1,19 +1,53 @@
-function initMap() {
-    var myLatLng = {lat: 21.161799, lng: -86.824032};
-    var map = new google.maps.Map(document.getElementById('map'), {
-        center: myLatLng,
-        scrollwheel: false,
-        // disableDefaultUI: true,
-        // zoomControl: true,
-        // scaleControl: true,
-        zoom: 15,
-        styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"administrative.country","elementType":"labels.text.fill","stylers":[{"color":"#ff8000"}]},{"featureType":"administrative.province","elementType":"labels.text","stylers":[{"visibility":"on"}]},{"featureType":"administrative.locality","elementType":"labels","stylers":[{"visibility":"on"}]},{"featureType":"administrative.locality","elementType":"labels.text.fill","stylers":[{"color":"#e87502"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
-    });
-    var image = 'images/habano/marker.png';
-    var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        icon: image
-    });
+// Function to change language in Spanish
+function changeEsp(id) {
+	$.ajax({
+		type: 'POST',
+		url: 'setLanguage.php',
+		data: { lang: 'Spanish' },
+		dataType: 'json',
+			success: function(json) {
+			location.reload();
+		},
+			error: function(xhr, status) {
+			console.log("Error");
+		}
+	});
+}
+// Function to change language in English
+function changeEn(id) {
+	$.ajax({
+		type: "POST",
+		url: "setLanguage.php",
+		data: { lang: "English" },
+		dataType: "json",
+			success: function(json) {
+			location.reload();
+		},
+			error: function(xhr, status) {
+			console.log("Error");
+		}
+	});
+}
+function validatedAges(){
+	let ages = document.getElementById('ages').value;
+	if (18 <= ages) {
+		alert("mayor de edad" + ages);
+		// document.getElementById("modal").style.display = "none";
+		$.ajax({
+		type: "POST",
+		url: "setLanguage.php",
+		data: { age: "adult" },
+		dataType: "json",
+			success: function(json) {
+			location.reload();
+		},
+			error: function(xhr, status) {
+			console.log("Error");
+		}
+	});
 
+	}
+	else{
+		alert("menor de edad"  + ages);
+	}
 }
