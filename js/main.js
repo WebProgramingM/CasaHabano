@@ -1,3 +1,5 @@
+//@prepros-prepend ./jquery-1.12.4.min.js
+//@prepros-prepend ./timber.master.min.js
 // Function to change language in Spanish
 function changeEsp(id) {
 	$.ajax({
@@ -29,7 +31,7 @@ function changeEn(id) {
 	});
 }
 function validatedAges(){
-	let ages = document.getElementById('ages').value;
+	var ages = document.getElementById('ages').value;
 	if (18 <= ages) {
 		$.ajax({
 		type: "POST",

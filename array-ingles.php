@@ -169,28 +169,28 @@ $cozumel = array(
 	'title_Loc'=>"Furthermore, after dinning time, La Casa del Habano Cozumel becomes the best club in Cozumel, it gets filled by locals who come to enjoy from Latin music live. At that time, you will find the best dancers on the island.",
 	'address'=>'Benito Juárez No1 Centro Cozumel <br> Q. ROO C.P 77600 Entre AVD Rafael E Melgar y calle 5TA ',
 	'phone'=>'Telefono: 987 8689-1696',
-	'lat'=>20.5110385,
-	'lng'=>-86.9517555,
+	'lat'=>21.2568147,
+	'lng'=>-86.7492857,
 	//Footer
 	'titleFooter'=>'COZUMEL',
 	'addressFooter'=>'Benito Juárez No1 Centro Cozumel',
-	'linkFooter'=>'#',
+	'linkFooter'=>'https://maps.google.com/?cid=707275755286104100',
 	'store'=> array(
 		[
 			'title' =>'CANCUN',
 			'address' =>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 Zona Hotelera Cancun ',
-			'link' =>'#'
+			'link' =>'https://goo.gl/maps/YbCWVxUfttS2'
 
 		],
 		[
 			'title' =>'LOS CABOS',
 			'address' =>'BLVD Lázaro Cardena S/N LocalL L-41-A ',
-			'link' =>'#'
+			'link' =>'https://goo.gl/maps/pzVXxphcmum'
 		],
 		[
 			'title' =>'TIJUANA',
 			'address' =>'Avenida Revolución No1115 INT 13 Zona Centro ',
-			'link' =>'#'
+			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2'
 		],
 	),
 	'social'=> array(
@@ -237,23 +237,23 @@ $cancun = array(
 	//Footer
 	'titleFooter'=>'CANCUN',
 	'addressFooter'=>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 Zona Hotelera Cancun ',
-	'linkFooter'=>'#',
+	'linkFooter'=>'https://goo.gl/maps/YbCWVxUfttS2',
 	'store'=> array(
 		[
 			'title' =>'COZUMEL',
 			'address' =>'Benito Juárez No1 Centro Cozumel',
-			'link' =>'#'
+			'link' =>'https://maps.google.com/?cid=707275755286104100'
 
 		],
 		[
 			'title' =>'LOS CABOS',
 			'address' =>'BLVD Lázaro Cardena S/N LocalL L-41-A ',
-			'link' =>'#'
+			'link' =>'https://goo.gl/maps/pzVXxphcmum'
 		],
 		[
 			'title' =>'TIJUANA',
 			'address' =>'Avenida Revolución No1115 INT 13 Zona Centro ',
-			'link' =>'#'
+			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2'
 		],
 	),
 	'social'=> array(
@@ -292,29 +292,29 @@ $cabos = array(
 	'title_Loc'=>"Our bar its located in the Puerto Paraíso mall and has a beautiful view to Cabo San Lucas’ marina and features a terrace where you will be able to enjoy your cigar & favorite drink.",
 	'address'=>'BLVD Lázaro Cardena S/N LocalL L-41-A<br> El Medado Cabos San Lucas C.P 23410 <br> Referencia: Plaza Comercial Puerto Paraiso',
 	'phone'=>'Teléfono: 624 143-7533',
-	'lat'=>22.8830939,
-	'lng'=>-109.9128076,
+	'lat'=>22.8866076,
+	'lng'=>-109.9116737,
 	//Footer
 	'titleFooter'=>'LOS CABOS',
 	'addressFooter'=>'BLVD Lázaro Cardena S/N LocalL L-41-A <br>El Medado Cabos San Lucas C.P 23410 <br>Referencia: Plaza Comercial Puerto Paraiso<br>Teléfono: 624 143-7533',
-	'linkFooter'=>'#',
+	'linkFooter'=>'https://goo.gl/maps/pzVXxphcmum',
 	'store'=> array(
 		[
 			'title' =>'COZUMEL',
 			'address' =>'Benito Juárez No1 Centro Cozumel',
-			'link' =>'#'
+			'link' =>'https://maps.google.com/?cid=707275755286104100'
 
 		],
 		[
 			'title' =>'CANCUN',
 			'address' =>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 Zona Hotelera Cancun ',
-			'link' =>'#'
+			'link' =>'https://goo.gl/maps/YbCWVxUfttS2'
 
 		],
 		[
 			'title' =>'TIJUANA',
 			'address' =>'Avenida Revolución No1115 INT 13 Zona Centro ',
-			'link' =>'#'
+			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2'
 		],
 	),
 	'social'=> array(
@@ -353,28 +353,28 @@ $tijuana = array(
 	'title_Loc'=>"Finally, if that was not attractive enough for you yet, our store is right in front the coastline and that is the reason why our 2nd floor features one of the best views to the Caribbean Sea; especially at sunset, when the Sun disappears into the sea.",
 	'address'=>'Avenida Revolución No1115 INT 13 Zona Centro <br>Tjuana B.C C.P 22000',
 	'phone'=>'Telefono: 664 688-33-39 y 664 685-5248',
-	'lat'=>32.5306176,
-	'lng'=>-117.0386323,
+	'lat'=>32.5316376,
+	'lng'=>-117.0389608,
 	//Footer
 	'titleFooter'=>'TIJUANA',
 	'addressFooter'=>'Avenida Revolución No1115 INT 13 Zona Centro <br>Tjuana B.C C.P 22000 <br>Telefono: 664 688-33-39 y 664 685-5248 ',
-	'linkFooter'=>'#',
+	'linkFooter'=>'https://goo.gl/maps/FPAEbxsMYdQ2',
 	'store'=> array(
 		[
 			'title' =>'COZUMEL',
 			'address' =>'Benito Juárez No1 Centro Cozumel',
-			'link' =>'#'
+			'link' =>'https://maps.google.com/?cid=707275755286104100'
 
 		],
 		[
 			'title' =>'LOS CABOS',
 			'address' =>'BLVD Lázaro Cardena S/N LocalL L-41-A ',
-			'link' =>'#'
+			'link' =>'https://goo.gl/maps/pzVXxphcmum'
 		],
 		[
 			'title' =>'CANCUN',
 			'address' =>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 ',
-			'link' =>'#'
+			'link' =>'https://goo.gl/maps/YbCWVxUfttS2'
 		],
 	),
 	'social'=> array(
