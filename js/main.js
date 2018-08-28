@@ -31,8 +31,6 @@ function changeEn(id) {
 function validatedAges(){
 	let ages = document.getElementById('ages').value;
 	if (18 <= ages) {
-		alert("mayor de edad" + ages);
-		// document.getElementById("modal").style.display = "none";
 		$.ajax({
 		type: "POST",
 		url: "setLanguage.php",
@@ -48,6 +46,6 @@ function validatedAges(){
 
 	}
 	else{
-		alert("menor de edad"  + ages);
+		alert("Eres menor de edad");
 	}
 }

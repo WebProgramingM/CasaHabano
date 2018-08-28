@@ -68,7 +68,7 @@ $home = array(
 	'images'=> array(
 		[
 			'title' =>'Cultivo' ,
-			'description' => 'design/illstration',
+			'description' => '',
 			'img' => array(
 				'images/habano/cultivo.png',''
 			), 
@@ -89,7 +89,7 @@ $home = array(
 		],
 		[
 			'title' =>'Elaboracion' ,
-			'description' => 'identity',
+			'description' => '',
 			'img' => array(
 				'images/habano/elaboracion.png',''
 			), 

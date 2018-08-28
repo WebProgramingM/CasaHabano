@@ -41,35 +41,35 @@ $home = array(
 		],
 		[
 			'title' =>'Benefit' ,
-			'description' => 'identity/illustration',
+			'description' => '',
 			'img' => array(
 				'images/habano/beneficio.png',''
 			), 
 		],
 		[
 			'title' =>'Aging' ,
-			'description' => 'iOS app',
+			'description' => '',
 			'img' => array(
 				'images/habano/anejamineto.png',''
 			), 
 		],
 		[
 			'title' =>'Elaboration' ,
-			'description' => 'identity',
+			'description' => '',
 			'img' => array(
 				'images/habano/elaboracion.png',''
 			), 
 		],
 		[
 			'title' =>'Finished' ,
-			'description' => 'identity',
+			'description' => '',
 			'img' => array(
 				'images/habano/terminado.png',''
 			),  
 		],
 		[
 			'title' =>'Origin' ,
-			'description' => 'identity',
+			'description' => '',
 			'img' => array(
 				'images/habano/origen.png',''
 			),  
