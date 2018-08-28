@@ -59,60 +59,51 @@ $home = array(
 	'sub_title'=> 'LOS EXPERTOS EN CIGARRAS DE MÉXICO ',
 	//About
 	'title_About'=> 'Acerca de nosotros',
-	'content_About'=>'<p class="lead mb-30">A local barber shop that was created by two friends in 1996. Our motto: Keeping it oldschool and handsome.</p>
-                        <p class="mb-40">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                        <h5 class="mb-10">Open Hours:</h5>
-                        <ul class="text-uppercase font-alt-1 list-unstyled">
-                            <li>Mon-Fri: 8 AM - 5 PM</li>
-                            <li>Saturday: 9 AM - 3 PM</li>
-                            <li>Sunday: Closed</li>
-                        </ul>',
+	'content_About'=>'<p class="lead mb-30">La Casa del Habano es la única franquicia del mundo autorizada para distribuir los puros de Habanos S.A., la única empresa del Estado Cubano que comercializa las marcas de puros cubanos en el mundo.</p>
+                        <p class="mb-40">A través de nuestras marcas La Casa del Habano y Havana Cigar House, nos hemos convertido en el mayor distribuidor de puros cubanos en México.</p>',
      //History
      'title_History'=>'Historia',
-     'content_History'=>'Debido al aroma y sabor únicos que tiene el tabaco, debido a su ubicación geográfica, el tabaco cubano es considerado el mejor del mundo.',
-     'content_History2'=>"Los pueblos indígenas en América habían estado usando tabaco antes de la llegada del español. Actualmente,
-                            la palabra cigarro proviene originalmente del sikar maya ('fumar hojas de tabaco enrolladas' -
-                            de si'c, 'tabaco'). La palabra española, puro abarca la brecha entre el uso maya y el moderno.",
-	'content_History3'=>"Debido al aroma y sabor únicos que tiene el tabaco, debido a su ubicación geográfica, el tabaco cubano es considerado el mejor del mundo. Sin embargo, otros países con gran consumo de tabaco son República Dominicana, Nicaragua y Honduras.",
+     'content_History'=>'Los indígenas americanos fumaban tabaco antes de la llegada de los españoles. De hecho, la palabra “cigarro” proviene originalmente de la palabra maya “sikar” ("fumar hojas de tabaco enrolladas" - de si\'c, "tabaco").',
+     'content_History2'=>"Debido al aroma y al sabor únicos que tiene el tabaco, el tabaco cubano es considerado el mejor del mundo. Sin embargo, otros países con gran calidad de tabaco son la República Dominicana, Nicaragua y Honduras.",
 	'images'=> array(
 		[
-			'title' =>'Banana Republik' ,
+			'title' =>'Cultivo' ,
 			'description' => 'design/illstration',
 			'img' => array(
 				'images/habano/cultivo.png',''
 			), 
 		],
 		[
-			'title' =>'The Adventure' ,
-			'description' => 'identity/illustration',
+			'title' =>'Beneficio' ,
+			'description' => '',
 			'img' => array(
 				'images/habano/beneficio.png',''
 			), 
 		],
 		[
-			'title' =>'I Travel' ,
-			'description' => 'iOS app',
+			'title' =>'Añejamiento' ,
+			'description' => '',
 			'img' => array(
 				'images/habano/anejamineto.png',''
 			), 
 		],
 		[
-			'title' =>'Miller Jackson' ,
+			'title' =>'Elaboracion' ,
 			'description' => 'identity',
 			'img' => array(
 				'images/habano/elaboracion.png',''
 			), 
 		],
 		[
-			'title' =>'Rockabilly' ,
-			'description' => 'identity',
+			'title' =>'Terminado' ,
+			'description' => '',
 			'img' => array(
 				'images/habano/terminado.png',''
 			),  
 		],
 		[
-			'title' =>'Weird I Am' ,
-			'description' => 'identity',
+			'title' =>'Origen' ,
+			'description' => '',
 			'img' => array(
 				'images/habano/origen.png',''
 			),  
@@ -120,13 +111,11 @@ $home = array(
 	),
 	//Brands
 	'title_Brands'=>'MARCAS',
-	'content_Brands'=>'Siendo el único distribuidor autorizado de Habanos S.A, no solo tenemos las mejores marcas, sino que también tenemos TODAS las marcas de cigarros cubanos.
-                             Entre las marcas que manejamos están Cohiba, Montecristo, Partagás, Romeo y Julieta, Hoyo de Monterrey,
-                             H. Upmann y todos los demás. Para conocer las características de cada una de las marcas de puros cubanos, lea este artículo (enlace).
-Todos nuestros cigarros son auténticos cigarros cubanos y tienen todos los elementos de seguridad de Habanos S.A. (enlace) para evitar la piratería.',
+	'content_Brands'=>'Al ser el único distribuidor autorizado de Habanos S.A, no solo tenemos las mejores marcas, sino que tenemos TODAS las marcas de puros cubanos. Entre las marcas que manejamos están Cohiba, Montecristo, Partagás, Romeo y Julieta, Hoyo de Monterrey, H. Upmann y todas las demás. Para conocer las características de cada una de las marcas de puros cubanos, lee este artículo (link a nuestro blog).',
+	'content_Brands2'=>'Todos nuestros puros son auténticos puros cubanos y cuentan con todos los elementos de seguridad de Habanos S.A. (link a nuestro blog). para evitar la piratería.',
 	//Experiences
 	'title_Experiences'=>'Una nueva experiencia',
-	'content_Experiences'=>"Manteniendo al hombre moderno guapo desde el '96. La única verdadera peluquería americana en la ciudad de Nueva York.",
+	'content_Experiences'=>"En nuestras tiendas, podrás disfrutar de tu puro en un lugar cómodo que te hará sentir como en el lobby de un lujoso hotel de Nueva York. En todas nuestras ubicaciones, nuestro personal te atenderá de manera profesional y atenta.",
 	//Store
 	'title_Store'=>'TIENDAS',
 	'content_Store'=>'En nuestras tiendas, podrá disfrutar de su cigarro en un lugar cómodo que se asemejará a la sala de estar de un lujoso hotel de Nueva York. <br>
@@ -256,27 +245,25 @@ cigarrillos a cigarros) – Jack Nicholson",
 
 );
 $cancun = array(
-	'title'=> 'LA CASA DE LOS CIGARROS CUBANOS',
+	'title'=> 'La Casa del Habano Cancún',
 	'logo' => array( 'images/habano/logo_habana_cigars.png',''),
 	'navlogo'=>'images/habano/logo-cancun.png',
 	'images'=> array( 'images/habano/slidercancun.png',''),
 	//About
-	'title_About'=>'BIENVENIDO A NUESTRA TIENDA',
-	'content_About'=>'<strong><span class="color-black">Esta sucursal de La Casa del Habano (LCH)</span></strong> , tiene un humidificador donde ofrecemos las 27 marcas comercializadas por Habanos SA.',
-	'blockquote_About'=>"<p>Algunas de las marcas cubanas que encontrará en LCH Cancún son Cohiba, Montecristo, Romeo y Julieta, Partagás, Hoyo de Monterrey, H. Upmann, Punch, Trinidad y Bolívar.Su ambiente tranquilo y elegante decoración lo harán sentir como si en la recepción de un gran hotel en Nueva York.
-En este lugar del Cigars House International Group, puede acompañar su cigarro cubano con la bebida que elija.
-Si estás en Cancún, no te quedes con el deseo: te esperamos en La Casa del Habano.
-		</p>",
+	'title_About'=>'Bienvenidos a nuestro local',
+	'content_About'=>'<strong><span class="color-black">Esta sucursal de La Casa del Habano  </span></strong>es uno de nuestros locales más grandes.',
+	'blockquote_About'=>"<p>En ella, encontrarás un humidificador donde ofrecemos las 27 marcas comercializadas por Habanos SA. Algunas de las marcas cubanas que encontrarás en LCH Cancún son Cohiba, Montecristo, Romeo y Julieta, Partagás, Hoyo de Monterrey, H. Upmann, Punch, Trinidad y Bolívar.
+		También podrás escoger si quieres fumar tu puro en nuestra elegante sala con aire acondicionado y sillones de piel, en nuestra barra de bebidas o si prefieres disfrutar de él al aire libre en nuestra terraza. En esta sucursal del grupo Cigars House International, podrás acompañar tu puro cubano con su bebida favorita o con un buen café cubano.Si estás en Cancún, te esperamos en La Casa del Habano.</p>",
 	'banner_about'=>"<h2 class='text-white'><b>UNA NUEVA EXPERIENCIA</b></h2><h5 class='text-white'>Manteniendo al hombre moderno guapo desde el '96. los<br> única verdadera American Barber Shop en la ciudad de Nueva York.</h5>",
 	//Experience
 	'title_Exp'=>'UNA NUEVA EXPERIENCIA',
-	'content_Exp'=>"Manteniendo al hombre moderno guapo desde el '96. La única verdadera Barber Shop estadounidense en la ciudad de Nueva York.",
+	'content_Exp'=>'"En mi experiencia, las personas que no tienen vicios, tienen muy pocas virtudes". Abraham Lincoln',
 	'images_exp'=> array( 'images/habano/experiences_cancun.png',''),
 	'images_exp2'=> array( 'images/habano/experiences_cancun2.png',''),
 	'images_exp3'=> array( 'images/habano/experiences_cancun3.png',''),
 	'images_exp4'=> array( 'images/habano/experiences_cancun4.png',''),
 	//Location
-	'title_Loc'=>"¿Tiene un proyecto que requiere renovación o rediseño? Estaremos encantados de echar un vistazo a su proyecto. Todas las estimaciones del proyecto son gratuitas.",
+	'title_Loc'=>"Nuestro bar está ubicado justo frente a la estación de policía, localizada cerca de la Plaza Kukulcan; estratégicamente en el centro de la zona hotelera, con la intención de estar más cerca de ti.",
 	'address'=>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 <br> Zona Hotelera Cancun Q.ROO C.P 77500',
 	'phone'=>'Teléfono: 998 8407000 y 998 8407001',
 	'lat'=>21.1022968,
@@ -320,23 +307,23 @@ Si estás en Cancún, no te quedes con el deseo: te esperamos en La Casa del Hab
 	),
 );
 $cabos = array(
-	'title'=> 'LA CASA DE LOS CIGARROS CUBANOS',
+	'title'=> 'Havana Cigar House & Mojito',
 	'navlogo'=>'images/habano/logo_habana_cigars.png',
 	'images'=> array( 'images/habano/slidercabos.png',''),
 	//About
 	'title_About'=>'BIENVENIDO A NUESTRA TIENDA',
-	'content_About'=>'<strong><span class="color-black">Esta tienda La Casa del Habano</span></strong> , ofrece las 27 marcas comercializadas por Habanos SA, la distribuidora de cigarros de propiedad estatal cubana.',
-	'blockquote_About'=>"<p>Algunas de las marcas que encontrarás en nuestra tienda de Tijuana son Cohiba, Montecristo, Romeo y Julieta, Partagás, Hoyo de Monterrey, H. Upmann, Punch, Trinidad y Bolívar.Su ambiente tranquilo y elegante decoración te harán sentir como si estuvieras sentado en la recepción de un gran hotel en Nueva York. También podrá acompañar su cigarro cubano con su café favorito y disfrutar de un juego de ajedrez mientras se relaja en nuestro salón. Si está en Tijuana, no lo piense dos veces. : visítanos en La Casa del Habano; estaremos ansiosos por conocerte.</p>",
-	'banner_about'=>'<h2 class="text-white"><b>UNA NUEVA EXPERIENCIA</b></h2><h5 class="text-white">"Fumar es indispensable si uno no tiene nada para besarse." Sigmund Freud</h5>',
+	'content_About'=>'<strong><span class="color-black">En este local de Cigars Mexico del Grupo Cigars House International </span></strong> encontrarás una barra en la que podrás ordenar las bebidas e tu preferencia para acompañar tu puro. También podrás disfrutar de su elegante sala color blanco y de su terraza, para disfrutar de tus puros al aire libre.',
+	'blockquote_About'=>"<p>Havana CIgar House & Mojito Los Cabos ofrece las 27 marcas cubanas comercializadas por Habanos SA, la empresa del Estado cubano que comercializa las marcas de puros cubanos. Algunas de las marcas cubanas que encontrarás en este local son Cohiba, Montecristo, Romeo y Julieta, Partagás, Hoyo de Monterrey, H. Upmann, Punch, Trinidad y Bolívar.</p>",
+	'banner_about'=>'<h2 class="text-white"><b>UNA NUEVA EXPERIENCIA</b></h2><h5 class="text-white"> "Fumo con moderación: solo un puro a la vez" - Mark Twain</h5>',
 	//Experience
 	'title_Exp'=>'Una nueva experiencia',
-	'content_Exp'=>'"El día más inútil y desastroso parece estar bien gastado cuando se revisa a través del humo azul y fragante de un cigarro habanero." -Evelen Waugh',
+	'content_Exp'=>'"Las mujeres se ponen celosas de los puros... los consideran un fuerte competidor". William Makepeace Thackeray',
 	'images_exp'=> array( 'images/habano/experiences_cabos.png',''),
 	'images_exp2'=> array( 'images/habano/experiences_cabos2.png',''),
 	'images_exp3'=> array( 'images/habano/experiences_cabos3.png',''),
 	'images_exp4'=> array( 'images/habano/experiences_cabos4.png',''),
 	//Location
-	'title_Loc'=>"¿Tiene un proyecto que requiere renovación o rediseño? Estaremos encantados de echar un vistazo a su proyecto. Todas las estimaciones del proyecto son gratuitas.",
+	'title_Loc'=>"Este local está localizado en el centro comercial Puerto Paraíso, cuenta con vista a la Marina de Cabo San Lucas y una terraza en la que podrás disfrutar de tu puro al aire libre.",
 	'address'=>'BLVD Lázaro Cardena S/N LocalL L-41-A<br> El Medado Cabos San Lucas C.P 23410 <br> Referencia: Plaza Comercial Puerto Paraiso',
 	'phone'=>'Teléfono: 624 143-7533',
 	'lat'=>22.8830939,
@@ -381,24 +368,24 @@ $cabos = array(
 	),
 );
 $tijuana = array(
-	'title'=> 'LA CASA DE LOS CIGARROS CUBANOS',
+	'title'=> ' La Casa del Habano',
 	'navlogo'=>'images/habano/logo-tijuana.png',
 	'images'=> array( 'images/habano/slidertijuana.png',''),
 	//About
 	'title_About'=>'BIENVENIDO A NUESTRA TIENDA',
-	'content_About'=>'<strong><span class="color-black">Esta sucursal de La Casa del Habano (LCH)</span></strong> ,tiene un humidificador donde ofrecemos las 27 marcas comercializadas por Habanos SA.',
-	'blockquote_About'=>"<p>Algunas de las marcas que encontrarás en nuestra tienda de Tijuana son Cohiba, Montecristo, Romeo y Julieta, Partagás, Hoyo de Monterrey, H. Upmann, Punch, Trinidad y Bolívar.Su ambiente tranquilo y elegante decoración te harán sentir como si estuvieras sentado en la recepción de un gran hotel en Nueva York. También podrá acompañar su cigarro cubano con su café favorito y disfrutar de un juego de ajedrez mientras se relaja en nuestro salón. Si está en Tijuana, no lo piense dos veces. : visítanos en La Casa del Habano; estaremos ansiosos por conocerte.
+	'content_About'=>'<strong><span class="color-black">Esta sucursal de La Casa del Habano </span></strong>  está ubicada a unas cuantas cuadras de la frontera con EUA, cuenta con un humidor en donde ofrecemos las 27 marcas comercializadas por Habanos SA.Algunas de las marcas cubanas que encontrarás en La Casa del Habano Tijuana son Cohiba, Montecristo, Romeo y Julieta, Partagás, Hoyo de Monterrey, H. Upmann, Punch, Trinidad y Bolívar.',
+	'blockquote_About'=>"<p>Su ambiente tranquilo y su elegante decoración, te harán sentir como en la recepción de un gran hotel de Nueva York.Podrás acompañar tu puro Cubano con el café de tu preferencia y disfrutar de una partida de ajedrez mientras te relajas en nuestra sala.
 		</p>",
-	'banner_about'=>'<h2 class="text-white"><b>UNA NUEVA EXPERIENCIA</b></h2><h5 class="text-white">"Fumar cigarros activamente alentado." Registrarse en un restaurante de Londres</h5>',
+	'banner_about'=>'<h2 class="text-white"><b>UNA NUEVA EXPERIENCIA</b></h2><h5 class="text-white">"La única forma de romper un mal hábito es reemplazarlo por uno peor". (Explicando por qué cambió de puros a puros) - Jack Nicholson</h5>',
 	//Experience
 	'title_Exp'=>'UNA NUEVA EXPERIENCIA',
-	'content_Exp'=>"““Si no puede enviar dinero, envíe tabaco.” (al Congreso Continental, 1776 ) - George Washington",
+	'content_Exp'=>"“Fumar es indispensable si uno no tiene nada qué besar” Sigmund Freud",
 	'images_exp'=> array( 'images/habano/experiences_tijuana.png',''),
 	'images_exp2'=> array( 'images/habano/experiences_tijuana2.png',''),
 	'images_exp3'=> array( 'images/habano/experiences_tijuana3.png',''),
 	'images_exp4'=> array( 'images/habano/experiences_tijuana4.png',''),
 	//Location
-	'title_Loc'=>"¿Tiene un proyecto que requiere renovación o rediseño? Estaremos encantados de echar un vistazo a su proyecto. Todas las estimaciones del proyecto son gratuitas.",
+	'title_Loc'=>"Esta sucursal está estratégicamente localizada en la zona comercial de Tijuana, cerca de bares, restaurantes y bancos, a unas cuadras de la frontera con Estados Unidos.",
 	'address'=>'Avenida Revolución No1115 INT 13 Zona Centro <br>Tjuana B.C C.P 22000',
 	'phone'=>'Telefono: 664 688-33-39 y 664 685-5248',
 	'lat'=>32.5306176,
