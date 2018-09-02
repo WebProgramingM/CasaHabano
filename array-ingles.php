@@ -83,6 +83,10 @@ $home = array(
 	'title_Experiences'=>'A New Experience',
 	'content_Experiences'=>"At our stores, you will be able to enjoy from your cigar in a comfortable place that will resemble the lounge of a luxurious hotel of New York.
 ",
+	//Footer
+	'addressFooter'=>'Benito Juárez No1 Centro Cozumel',
+	'linkFooter'=>'https://maps.google.com/?cid=707275755286104100',
+	'linkName'=>'See it on map',
 	//Store
 	'title_Store'=>'STORE',
 	'content_Store'=>'At our stores, you will be able to enjoy from your cigar in a comfortable place that will resemble the lounge of a luxurious hotel of New York.<br>
@@ -95,24 +99,26 @@ $home = array(
 			Q. ROO C.P 77600
 			Entre AVD Rafael E Melgar y calle  5TA
 			Telefono: 987 8689-1696<br>
-			<a href="#">See the Google map</a>',
+			<a href="https://maps.google.com/?cid=707275755286104100" target="_blank">See it on map</a>',
 			'img' => array(
 				'images/habano/cozumel.png',''
 			), 
 			'visit'=>'Visit Now',
-			'link'=>'cozumel.php'
+			'link'=>'cozumel.php',
+			'seelink'=>'See it on map'
 		],
 		[
 			'title' =>'CANCUN' ,
 			'description' => 'BLVD Kukulkan No 3, 4 Y 5 Km12.7<br>
 			Zona Hotelera Cancun Q.ROO C.P 77500<br>
 			Teléfono: 998 8407000 y 998 8407001<br>
-			<a href="#">See the Google map</a>',
+			<a href="https://goo.gl/maps/YbCWVxUfttS2" target="_blank">See it on map</a>',
 			'img' => array(
 				'images/habano/cancun.png',''
 			), 
 			'visit'=>'Visit Now',
-			'link'=>'cancun.php'
+			'link'=>'cancun.php',
+			'seelink'=>'See it on map'
 		],
 		[
 			'title' =>'LOS CABOS' ,
@@ -120,24 +126,27 @@ $home = array(
 			El Medado Cabos San Lucas C.P 23410<br>
 			Referencia: Plaza Comercial Puerto Paraiso<br>
 			Teléfono: 624 143-7533<br>
-			<a href="#">See the Google map</a>',
+			<a href="https://goo.gl/maps/pzVXxphcmum" target="_blank">See it on map</a>',
 			'img' => array(
 				'images/habano/cabos.png',''
 			), 
 			'visit'=>'Visit Now',
-			'link'=>'cabos.php'
+			'link'=>'cabos.php',
+			'seelink'=>'See it on map'
+
 		],
 		[
 			'title' =>'TIJUANA' ,
 			'description' => ' Avenida Revolución No1115 INT 13 Zona Centro<br>
 			Tjuana B.C C.P 22000<br>
 			Telefono: 664 688-33-39 y 664 685-5248<br>
-			<a href="">See the Google map</a>',
+			<a href="https://goo.gl/maps/FPAEbxsMYdQ2" target="_blank">See it on map</a>',
 			'img' => array(
 				'images/habano/tijuana.png',''
 			), 
 			'visit'=>'Visit Now',
-			'link'=>'tijuana.php'
+			'link'=>'tijuana.php',
+			'seelink'=>'See it on map'
 		],
 		
 	),
@@ -175,22 +184,28 @@ $cozumel = array(
 	'titleFooter'=>'COZUMEL',
 	'addressFooter'=>'Benito Juárez No1 Centro Cozumel',
 	'linkFooter'=>'https://maps.google.com/?cid=707275755286104100',
+	'linkName'=>'See it on map',
+	'seelink'=>'See it on map',
 	'store'=> array(
 		[
 			'title' =>'CANCUN',
 			'address' =>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 Zona Hotelera Cancun ',
-			'link' =>'https://goo.gl/maps/YbCWVxUfttS2'
+			'link' =>'https://goo.gl/maps/YbCWVxUfttS2',
+			'seelink'=>'See it on map'
 
 		],
 		[
 			'title' =>'LOS CABOS',
 			'address' =>'BLVD Lázaro Cardena S/N LocalL L-41-A ',
-			'link' =>'https://goo.gl/maps/pzVXxphcmum'
+			'link' =>'https://goo.gl/maps/pzVXxphcmum',
+			'seelink'=>'See it on map'
+
 		],
 		[
 			'title' =>'TIJUANA',
 			'address' =>'Avenida Revolución No1115 INT 13 Zona Centro ',
-			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2'
+			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2',
+			'seelink'=>'See it on map'
 		],
 	),
 	'social'=> array(
@@ -208,7 +223,6 @@ $cozumel = array(
 			'link' =>'#'
 		],
 	),
-
 
 );
 $cancun = array(
@@ -238,22 +252,26 @@ $cancun = array(
 	'titleFooter'=>'CANCUN',
 	'addressFooter'=>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 Zona Hotelera Cancun ',
 	'linkFooter'=>'https://goo.gl/maps/YbCWVxUfttS2',
+	'seelink'=>'See it on map',
 	'store'=> array(
 		[
 			'title' =>'COZUMEL',
 			'address' =>'Benito Juárez No1 Centro Cozumel',
-			'link' =>'https://maps.google.com/?cid=707275755286104100'
+			'link' =>'https://maps.google.com/?cid=707275755286104100',
+			'seelink'=>'See it on map'
 
 		],
 		[
 			'title' =>'LOS CABOS',
 			'address' =>'BLVD Lázaro Cardena S/N LocalL L-41-A ',
-			'link' =>'https://goo.gl/maps/pzVXxphcmum'
+			'link' =>'https://goo.gl/maps/pzVXxphcmum',
+			'seelink'=>'See it on map'
 		],
 		[
 			'title' =>'TIJUANA',
 			'address' =>'Avenida Revolución No1115 INT 13 Zona Centro ',
-			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2'
+			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2',
+			'seelink'=>'See it on map'
 		],
 	),
 	'social'=> array(
@@ -298,23 +316,27 @@ $cabos = array(
 	'titleFooter'=>'LOS CABOS',
 	'addressFooter'=>'BLVD Lázaro Cardena S/N LocalL L-41-A <br>El Medado Cabos San Lucas C.P 23410 <br>Referencia: Plaza Comercial Puerto Paraiso<br>Teléfono: 624 143-7533',
 	'linkFooter'=>'https://goo.gl/maps/pzVXxphcmum',
+	'seelink'=>'See it on map',
 	'store'=> array(
 		[
 			'title' =>'COZUMEL',
 			'address' =>'Benito Juárez No1 Centro Cozumel',
-			'link' =>'https://maps.google.com/?cid=707275755286104100'
+			'link' =>'https://maps.google.com/?cid=707275755286104100',
+			'seelink'=>'See it on map'
 
 		],
 		[
 			'title' =>'CANCUN',
 			'address' =>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 Zona Hotelera Cancun ',
-			'link' =>'https://goo.gl/maps/YbCWVxUfttS2'
+			'link' =>'https://goo.gl/maps/YbCWVxUfttS2',
+			'seelink'=>'See it on map'
 
 		],
 		[
 			'title' =>'TIJUANA',
 			'address' =>'Avenida Revolución No1115 INT 13 Zona Centro ',
-			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2'
+			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2',
+			'seelink'=>'See it on map'
 		],
 	),
 	'social'=> array(
@@ -359,22 +381,26 @@ $tijuana = array(
 	'titleFooter'=>'TIJUANA',
 	'addressFooter'=>'Avenida Revolución No1115 INT 13 Zona Centro <br>Tjuana B.C C.P 22000 <br>Telefono: 664 688-33-39 y 664 685-5248 ',
 	'linkFooter'=>'https://goo.gl/maps/FPAEbxsMYdQ2',
+	'seelink'=>'See it on map',
 	'store'=> array(
 		[
 			'title' =>'COZUMEL',
 			'address' =>'Benito Juárez No1 Centro Cozumel',
-			'link' =>'https://maps.google.com/?cid=707275755286104100'
+			'link' =>'https://maps.google.com/?cid=707275755286104100',
+			'seelink'=>'See it on map'
 
 		],
 		[
 			'title' =>'LOS CABOS',
 			'address' =>'BLVD Lázaro Cardena S/N LocalL L-41-A ',
-			'link' =>'https://goo.gl/maps/pzVXxphcmum'
+			'link' =>'https://goo.gl/maps/pzVXxphcmum',
+			'seelink'=>'See it on map'
 		],
 		[
 			'title' =>'CANCUN',
 			'address' =>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 ',
-			'link' =>'https://goo.gl/maps/YbCWVxUfttS2'
+			'link' =>'https://goo.gl/maps/YbCWVxUfttS2',
+			'seelink'=>'See it on map'
 		],
 	),
 	'social'=> array(

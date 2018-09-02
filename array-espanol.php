@@ -115,7 +115,12 @@ $home = array(
 	'content_Brands2'=>'Todos nuestros puros son auténticos puros cubanos y cuentan con todos los elementos de seguridad de Habanos S.A. (link a nuestro blog). para evitar la piratería.',
 	//Experiences
 	'title_Experiences'=>'Una nueva experiencia',
-	'content_Experiences'=>"En nuestras tiendas, podrás disfrutar de tu puro en un lugar cómodo que te hará sentir como en el lobby de un lujoso hotel de Nueva York. En todas nuestras ubicaciones, nuestro personal te atenderá de manera profesional y atenta.",
+	'content_Experiences'=>"En nuestras sucursales encontrarás todas las marcas de puros cubanos. Nuestros locales están diseñados para ofrecerte el mejor ambiente para que disfrutes de tu puro en compañía de tu bebida favorita.",
+		//Footer
+	'titleFooter'=>'COZUMEL',
+	'addressFooter'=>'Benito Juárez No1 Centro Cozumel',
+	'linkFooter'=>'https://maps.google.com/?cid=707275755286104100',
+	'linkName'=>'See it on map',
 	//Store
 	'title_Store'=>'TIENDAS',
 	'content_Store'=>'En nuestras tiendas, podrá disfrutar de su cigarro en un lugar cómodo que se asemejará a la sala de estar de un lujoso hotel de Nueva York. <br>
@@ -128,24 +133,26 @@ $home = array(
 			Q. ROO C.P 77600
 			Entre AVD Rafael E Melgar y calle  5TA
 			Telefono: 987 8689-1696<br>
-			<a href="#">Ver el mapa de Google</a>',
+			<a href="https://maps.google.com/?cid=707275755286104100" target="_blank">Ver el mapa de Google</a>',
 			'img' => array(
 				'images/habano/cozumel.png',''
 			), 
 			'visit'=>'Visitanos',
-			'link'=>'cozumel.php'
+			'link'=>'cozumel.php',
+			'seelink'=>'ver en el mapa'
 		],
 		[
 			'title' =>'CANCUN' ,
 			'description' => 'BLVD Kukulkan No 3, 4 Y 5 Km12.7<br>
 			Zona Hotelera Cancun Q.ROO C.P 77500<br>
 			Teléfono: 998 8407000 y 998 8407001<br>
-			<a href="#">Ver el mapa de Google</a>',
+			<a href="https://goo.gl/maps/YbCWVxUfttS2" target="_blank">Ver el mapa de Google</a>',
 			'img' => array(
 				'images/habano/cancun.png',''
 			), 
 			'visit'=>'Visitanos',
-			'link'=>'cancun.php'
+			'link'=>'cancun.php',
+			'seelink'=>'ver en el mapa'
 		],
 		[
 			'title' =>'LOS CABOS' ,
@@ -153,24 +160,26 @@ $home = array(
 			El Medado Cabos San Lucas C.P 23410<br>
 			Referencia: Plaza Comercial Puerto Paraiso<br>
 			Teléfono: 624 143-7533<br>
-			<a href="#">Ver el mapa de Google</a>',
+			<a href="https://goo.gl/maps/pzVXxphcmum" target="_blank">Ver el mapa de Google</a>',
 			'img' => array(
 				'images/habano/cabos.png',''
 			), 
 			'visit'=>'Visitanos',
-			'link'=>'cabos.php'
+			'link'=>'cabos.php',
+			'seelink'=>'ver en el mapa'
 		],
 		[
 			'title' =>'TIJUANA' ,
 			'description' => ' Avenida Revolución No1115 INT 13 Zona Centro<br>
 			Tjuana B.C C.P 22000<br>
 			Telefono: 664 688-33-39 y 664 685-5248<br>
-			<a href="">Ver el mapa de Google</a>',
+			<a href="https://goo.gl/maps/pzVXxphcmum" target="_blank">Ver el mapa de Google</a>',
 			'img' => array(
 				'images/habano/tijuana.png',''
 			), 
 			'visit'=>'Visitanos',
-			'link'=>'tijuana.php'
+			'link'=>'tijuana.php',
+			'seelink'=>'ver en el mapa'
 		],
 		
 	),
@@ -208,22 +217,26 @@ cigarrillos a cigarros) – Jack Nicholson",
 	'titleFooter'=>'COZUMEL',
 	'addressFooter'=>'Benito Juárez No1 Centro Cozumel',
 	'linkFooter'=>'https://maps.google.com/?cid=707275755286104100',
+	'seelink'=>'ver en el mapa',
 	'store'=> array(
 		[
 			'title' =>'CANCUN',
 			'address' =>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 Zona Hotelera Cancun ',
-			'link' =>'https://goo.gl/maps/YbCWVxUfttS2'
+			'link' =>'https://goo.gl/maps/YbCWVxUfttS2',
+			'seelink'=>'ver en el mapa'
 
 		],
 		[
 			'title' =>'LOS CABOS',
 			'address' =>'BLVD Lázaro Cardena S/N LocalL L-41-A ',
-			'link' =>'https://goo.gl/maps/pzVXxphcmum'
+			'link' =>'https://goo.gl/maps/pzVXxphcmum',
+			'seelink'=>'ver en el mapa'
 		],
 		[
 			'title' =>'TIJUANA',
 			'address' =>'Avenida Revolución No1115 INT 13 Zona Centro ',
-			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2'
+			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2',
+			'seelink'=>'ver en el mapa'
 		],
 	),
 	'social'=> array(
@@ -272,22 +285,26 @@ $cancun = array(
 	'titleFooter'=>'CANCUN',
 	'addressFooter'=>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 Zona Hotelera Cancun ',
 	'linkFooter'=>'https://goo.gl/maps/YbCWVxUfttS2',
+	'seelink'=>'ver en el mapa',
 	'store'=> array(
 		[
 			'title' =>'COZUMEL',
 			'address' =>'Benito Juárez No1 Centro Cozumel',
-			'link' =>'https://maps.google.com/?cid=707275755286104100'
+			'link' =>'https://maps.google.com/?cid=707275755286104100',
+			'seelink'=>'ver en el mapa'
 
 		],
 		[
 			'title' =>'LOS CABOS',
 			'address' =>'BLVD Lázaro Cardena S/N LocalL L-41-A ',
-			'link' =>'https://goo.gl/maps/pzVXxphcmum'
+			'link' =>'https://goo.gl/maps/pzVXxphcmum',
+			'seelink'=>'ver en el mapa'
 		],
 		[
 			'title' =>'TIJUANA',
 			'address' =>'Avenida Revolución No1115 INT 13 Zona Centro ',
-			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2'
+			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2',
+			'seelink'=>'ver en el mapa'
 		],
 	),
 	'social'=> array(
@@ -332,23 +349,27 @@ $cabos = array(
 	'titleFooter'=>'LOS CABOS',
 	'addressFooter'=>'BLVD Lázaro Cardena S/N LocalL L-41-A <br>El Medado Cabos San Lucas C.P 23410 <br>Referencia: Plaza Comercial Puerto Paraiso<br>Teléfono: 624 143-7533',
 	'linkFooter'=>'https://goo.gl/maps/pzVXxphcmum',
+	'seelink'=>'ver en el mapa',
 	'store'=> array(
 		[
 			'title' =>'COZUMEL',
 			'address' =>'Benito Juárez No1 Centro Cozumel',
-			'link' =>'https://maps.google.com/?cid=707275755286104100'
+			'link' =>'https://maps.google.com/?cid=707275755286104100',
+			'seelink'=>'ver en el mapa'
 
 		],
 		[
 			'title' =>'CANCUN',
 			'address' =>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 Zona Hotelera Cancun ',
-			'link' =>'https://goo.gl/maps/YbCWVxUfttS2'
+			'link' =>'https://goo.gl/maps/YbCWVxUfttS2',
+			'seelink'=>'ver en el mapa'
 
 		],
 		[
 			'title' =>'TIJUANA',
 			'address' =>'Avenida Revolución No1115 INT 13 Zona Centro ',
-			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2'
+			'link' =>'https://goo.gl/maps/FPAEbxsMYdQ2',
+			'seelink'=>'ver en el mapa'
 		],
 	),
 	'social'=> array(
@@ -394,22 +415,26 @@ $tijuana = array(
 	'titleFooter'=>'TIJUANA',
 	'addressFooter'=>'Avenida Revolución No1115 INT 13 Zona Centro <br>Tjuana B.C C.P 22000 <br>Telefono: 664 688-33-39 y 664 685-5248 ',
 	'linkFooter'=>'https://goo.gl/maps/FPAEbxsMYdQ2',
+	'seelink'=>'ver en el mapa',
 	'store'=> array(
 		[
 			'title' =>'COZUMEL',
 			'address' =>'Benito Juárez No1 Centro Cozumel',
-			'link' =>'https://maps.google.com/?cid=707275755286104100'
+			'link' =>'https://maps.google.com/?cid=707275755286104100',
+			'seelink'=>'ver en el mapa'
 
 		],
 		[
 			'title' =>'LOS CABOS',
 			'address' =>'BLVD Lázaro Cardena S/N LocalL L-41-A ',
-			'link' =>'https://goo.gl/maps/pzVXxphcmum'
+			'link' =>'https://goo.gl/maps/pzVXxphcmum',
+			'seelink'=>'ver en el mapa'
 		],
 		[
 			'title' =>'CANCUN',
 			'address' =>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 ',
-			'link' =>'https://goo.gl/maps/YbCWVxUfttS2'
+			'link' =>'https://goo.gl/maps/YbCWVxUfttS2',
+			'seelink'=>'ver en el mapa'
 		],
 	),
 	'social'=> array(
