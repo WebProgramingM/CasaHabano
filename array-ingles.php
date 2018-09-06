@@ -40,42 +40,42 @@ $home = array(
 			'title' =>'Culture' ,
 			'description' => '',
 			'img' => array(
-				'images/habano/cultivo.png',''
+				'http://www.cigarsmexico.com.mx/images/habano/cultivo.png',''
 			), 
 		],
 		[
 			'title' =>'Benefit' ,
 			'description' => '',
 			'img' => array(
-				'images/habano/beneficio.png',''
+				'http://www.cigarsmexico.com.mx/images/habano/beneficio.png',''
 			), 
 		],
 		[
 			'title' =>'Aging' ,
 			'description' => '',
 			'img' => array(
-				'images/habano/anejamineto.png',''
+				'http://www.cigarsmexico.com.mx/images/habano/anejamineto.png',''
 			), 
 		],
 		[
 			'title' =>'Elaboration' ,
 			'description' => '',
 			'img' => array(
-				'images/habano/elaboracion.png',''
+				'http://www.cigarsmexico.com.mx/images/habano/elaboracion.png',''
 			), 
 		],
 		[
 			'title' =>'Finished' ,
 			'description' => '',
 			'img' => array(
-				'images/habano/terminado.png',''
+				'http://www.cigarsmexico.com.mx/images/habano/terminado.png',''
 			),  
 		],
 		[
 			'title' =>'Origin' ,
 			'description' => '',
 			'img' => array(
-				'images/habano/origen.png',''
+				'http://www.cigarsmexico.com.mx/images/habano/origen.png',''
 			),  
 		],
 	),
@@ -117,7 +117,7 @@ $home = array(
 			Phone: +52 998 840 7000<br>
 			<a href="https://goo.gl/maps/19biUGLbQp22">See it on the map!</a><br>',
 			'img' => array(
-				'images/habano/cancun.png',''
+				'http://www.cigarsmexico.com.mx/images/habano/cancun.png',''
 			), 
 			'visit'=>'Visit La Casa del Habano Cancun',
 			'link'=>'cancun.php',
@@ -131,7 +131,7 @@ $home = array(
 			Phone: +52 624 143 7533<br>
 			<a href="https://goo.gl/maps/pzVXxphcmum">See it on the map!</a>',
 			'img' => array(
-				'images/habano/cabos.png',''
+				'http://www.cigarsmexico.com.mx/images/habano/cabos.png',''
 			), 
 			'visit'=>'Visit Havana Cigar House & Mojito',
 			'link'=>'cabos.php',
