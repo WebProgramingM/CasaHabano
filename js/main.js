@@ -30,24 +30,24 @@ function changeEn(id) {
 		}
 	});
 }
-function validatedAges(){
-	var ages = document.getElementById('ages').value;
-	if (18 <= ages) {
-		$.ajax({
-		type: "POST",
-		url: "setLanguage.php",
-		data: { age: "adult" },
-		dataType: "json",
-			success: function(json) {
-			location.reload();
-		},
-			error: function(xhr, status) {
-			console.log("Error");
-		}
-	});
+// function validatedAges(){
+// 	var ages = document.getElementById('ages').value;
+// 	if (18 <= ages) {
+// 		$.ajax({
+// 		type: "POST",
+// 		url: "setLanguage.php",
+// 		data: { age: "adult" },
+// 		dataType: "json",
+// 			success: function(json) {
+// 			location.reload();
+// 		},
+// 			error: function(xhr, status) {
+// 			console.log("Error");
+// 		}
+// 	});
 
-	}
-	else{
-		alert("Eres menor de edad");
-	}
-}
+// 	}
+// 	else{
+// 		alert("Eres menor de edad");
+// 	}
+// }
