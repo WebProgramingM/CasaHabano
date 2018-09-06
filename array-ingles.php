@@ -266,7 +266,7 @@ $cancun = array(
 	'address'=>'Km. 12.7 Kukulkan Blvd., Hotel Zone Cancun (in front of the police station near the Kukulcan Mall and right beside the OXXO).',
 	'phone'=>'Phone: 998 8407000 y 998 8407001',
 	'lat'=>21.1022968,
-	'lng'=>-86.7681192,
+	'lng'=>-86.7659305,
 	//Footer Cancún
 	'titleFooter'=>'La Casa del Habano Cancun',
 	'addressFooter'=>'Km. 12.7 Kukulkan Blvd., Hotel Zone Cancun',
@@ -311,6 +311,7 @@ $cancun = array(
 );
 $cabos = array(
 	'title'=> 'Havana CIgar House & Mojito Los Cabos ',
+	'sub_title'=> 'THE CIGAR EXPERTS OF MEXICO ',
 	'navlogo'=>'images/habano/logo_habana_cigars.png',
 	'images'=> array( 'images/habano/slidercabos.png',''),
 	//About Cabos
@@ -377,6 +378,7 @@ $cabos = array(
 );
 $tijuana = array(
 	'title'=> 'La Casa del Habano Tijuana',
+	'sub_title'=> 'THE CIGAR EXPERTS OF MEXICO ',
 	'navlogo'=>'images/habano/logo-tijuana.png',
 	'images'=> array( 'images/habano/slidertijuana.png',''),
 	//About Tijuana

@@ -188,7 +188,8 @@ $home = array(
 
 );
 $cozumel = array(
-	'title'=> 'LA CASA DE LOS CIGARROS CUBANOS',
+	'title'=> 'La Casa del Habano Cozumel',
+	'sub_title'=> 'Los expertos en puros en México',
 	'navlogo'=>'images/logo.png',
 	'images'=> array( 'images/habano/slider.png',''),
 	'logo' => array( 'images/logo.png',''),
@@ -269,6 +270,7 @@ $cozumel = array(
 );
 $cancun = array(
 	'title'=> 'La Casa del Habano Cancún',
+	'sub_title'=> 'Los expertos en puros en México ',
 	'logo' => array( 'images/habano/logo_habana_cigars.png',''),
 	'navlogo'=>'images/habano/logo-cancun.png',
 	'images'=> array( 'images/habano/slidercancun.png',''),
@@ -294,7 +296,7 @@ $cancun = array(
 	'address'=>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 <br> Zona Hotelera Cancun Q.ROO C.P 77500',
 	'phone'=>'Teléfono: 998 8407000 y 998 8407001',
 	'lat'=>21.1022968,
-	'lng'=>-86.7681192,
+	'lng'=>-86.7659305,
 	//Footer
 	'titleFooter'=>'CANCUN',
 	'addressFooter'=>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 Zona Hotelera Cancun ',
@@ -339,6 +341,7 @@ $cancun = array(
 );
 $cabos = array(
 	'title'=> 'Havana Cigar House & Mojito',
+	'sub_title'=> 'Los expertos en puros en México ',
 	'navlogo'=>'images/habano/logo_habana_cigars.png',
 	'images'=> array( 'images/habano/slidercabos.png',''),
 	
@@ -406,6 +409,7 @@ $cabos = array(
 );
 $tijuana = array(
 	'title'=> ' La Casa del Habano Tijuana',
+	'sub_title'=> 'Los expertos en puros en México ',
 	'navlogo'=>'images/habano/logo-tijuana.png',
 	'images'=> array( 'images/habano/slidertijuana.png',''),
 		
