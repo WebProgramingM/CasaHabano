@@ -137,7 +137,7 @@ $home = array(
 			<a href="https://goo.gl/maps/XzBKdR9zaJ72" target="_blank">Ver en Google Maps</a><br>
 			<a href="https://www.facebook.com/TheCubanSpotInCozumel/">Visita nuestro Facebook</a>',
 			'img' => array(
-				'https://master-rhino-205702.firebaseapp.com/images/habano/cozumel.png',''
+				'images/habano/cozumel.png',''
 			), 
 			'visit'=>'La Casa del Habano Cozumel',
 			'link'=>'cozumel.php',
@@ -151,7 +151,7 @@ $home = array(
 			Teléfono: +52 998 840 7000<br>
 			<a href="https://goo.gl/maps/19biUGLbQp22" target="_blank">Ver en Google Maps</a><br>',
 			'img' => array(
-				'https://master-rhino-205702.firebaseapp.com/images/habano/cancun.png',''
+				'images/habano/cancun.png',''
 			), 
 			'visit'=>'La Casa del Habano Cancún',
 			'link'=>'cancun.php',
@@ -164,7 +164,7 @@ $home = array(
 			Teléfono: +52 624 143 7533<br>
 			<a href="https://goo.gl/maps/pzVXxphcmum" target="_blank">Ver en Google Maps</a>',
 			'img' => array(
-				'https://master-rhino-205702.firebaseapp.com/images/habano/cabos.png',''
+				'images/habano/cabos.png',''
 			), 
 			'visit'=>'Havana Cigar House & Mojito, Los Cabos',
 			'link'=>'cabos.php',
@@ -177,7 +177,7 @@ $home = array(
 			Teléfono: +52 664 688-33-39<br>
 			<a href="https://goo.gl/maps/FPAEbxsMYdQ2" target="_blank">Ver en Google Maps</a>',
 			'img' => array(
-				'https://master-rhino-205702.firebaseapp.com/images/habano/tijuana.png',''
+				'images/habano/tijuana.png',''
 			), 
 			'visit'=>'La Casa del Habano Tijuana',
 			'link'=>'tijuana.php',
@@ -191,7 +191,7 @@ $cozumel = array(
 	'title'=> 'La Casa del Habano Cozumel',
 	'sub_title'=> 'Los expertos en puros en México',
 	'navlogo'=>'images/logo.png',
-	'images'=> array( 'https://master-rhino-205702.firebaseapp.com/images/habano/slider.png',''),
+	'images'=> array( 'images/habano/slider.png',''),
 	'logo' => array( 'images/logo.png',''),
 //About Cozumel
 	'title_About'=>'Bienvenidos a la mejor terraza de Cozumel',
