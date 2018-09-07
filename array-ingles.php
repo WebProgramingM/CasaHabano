@@ -40,42 +40,42 @@ $home = array(
 			'title' =>'Culture' ,
 			'description' => '',
 			'img' => array(
-				'http://www.cigarsmexico.com.mx/images/habano/cultivo.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/cultivo.png',''
 			), 
 		],
 		[
 			'title' =>'Benefit' ,
 			'description' => '',
 			'img' => array(
-				'http://www.cigarsmexico.com.mx/images/habano/beneficio.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/beneficio.png',''
 			), 
 		],
 		[
 			'title' =>'Aging' ,
 			'description' => '',
 			'img' => array(
-				'http://www.cigarsmexico.com.mx/images/habano/anejamineto.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/anejamineto.png',''
 			), 
 		],
 		[
 			'title' =>'Elaboration' ,
 			'description' => '',
 			'img' => array(
-				'http://www.cigarsmexico.com.mx/images/habano/elaboracion.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/elaboracion.png',''
 			), 
 		],
 		[
 			'title' =>'Finished' ,
 			'description' => '',
 			'img' => array(
-				'http://www.cigarsmexico.com.mx/images/habano/terminado.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/terminado.png',''
 			),  
 		],
 		[
 			'title' =>'Origin' ,
 			'description' => '',
 			'img' => array(
-				'http://www.cigarsmexico.com.mx/images/habano/origen.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/origen.png',''
 			),  
 		],
 	),
@@ -117,7 +117,7 @@ $home = array(
 			Phone: +52 998 840 7000<br>
 			<a href="https://goo.gl/maps/19biUGLbQp22">See it on the map!</a><br>',
 			'img' => array(
-				'http://www.cigarsmexico.com.mx/images/habano/cancun.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/cancun.png',''
 			), 
 			'visit'=>'Visit La Casa del Habano Cancun',
 			'link'=>'cancun.php',
@@ -131,7 +131,7 @@ $home = array(
 			Phone: +52 624 143 7533<br>
 			<a href="https://goo.gl/maps/pzVXxphcmum">See it on the map!</a>',
 			'img' => array(
-				'http://www.cigarsmexico.com.mx/images/habano/cabos.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/cabos.png',''
 			), 
 			'visit'=>'Visit Havana Cigar House & Mojito',
 			'link'=>'cabos.php',
@@ -145,7 +145,7 @@ $home = array(
 			Phone: +52 664 688-33-39<br>
 			<a href="https://goo.gl/maps/FPAEbxsMYdQ2">See it on the map!</a>',
 			'img' => array(
-				'images/habano/tijuana.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/tijuana.png',''
 			), 
 			'visit'=>'Visit La Casa del Habano Tijuana',
 			'link'=>'tijuana.php',
