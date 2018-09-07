@@ -72,42 +72,42 @@ $home = array(
 			'title' =>'Primero, las plantas de tabaco son cultivadas para después podar sus hojas.' ,
 			'description' => '',
 			'img' => array(
-				'images/habano/cultivo.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/cultivo.png',''
 			), 
 		],
 		[
 			'title' =>'Después de recolectadas, las hojas son ensartadas en franjas de maderas finas, las cuáles se colocan en el techo del granero de curación para que tengan buena ventilación.' ,
 			'description' => '',
 			'img' => array(
-				'images/habano/beneficio.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/beneficio.png',''
 			), 
 		],
 		[
 			'title' =>'Después, las hojas se clasifican de acuerdo a su color y tamaño, se amarran en ramos y se almacenan en cajas de madera, por un período que puede variar de los 6 meses a 5 años. En este tiempo las plantas se fermentan y desarrollan su aroma y sabor.' ,
 			'description' => '',
 			'img' => array(
-				'images/habano/anejamineto.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/anejamineto.png',''
 			), 
 		],
 		[
 			'title' =>'Los puros de mayor calidad son los hechos a mano. Las hojas de tabaco se compactan y se colocan sobre otra hoja de tabaco para envolverlo. La envoltura es aplicada en forma de espiral alrededor del puro y al final lo pega con pasta vegetal.' ,
 			'description' => '',
 			'img' => array(
-				'images/habano/elaboracion.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/elaboracion.png',''
 			), 
 		],
 		[
 			'title' =>'Una vez se termina de hacer el puro se inspecciona, se le coloca la etiqueta y se almacena en cajas de cedro, material ideal para mantener las propiedades del puro por años.' ,
 			'description' => '',
 			'img' => array(
-				'images/habano/terminado.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/terminado.png',''
 			),  
 		],
 		[
 			'title' =>'A partir de la victoria de la Revolución Cubana, el Estado Cubano, a través de su empresa Habanos S.A., es el único autorizado para producir, comercializar y exportar las 27 marcas de puros cubanos. La Casa del Habano es el nombre de las franquicia internacional de Habanos S.A.' ,
 			'description' => '',
 			'img' => array(
-				'images/habano/origen.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/origen.png',''
 			),  
 		],
 	),
@@ -137,7 +137,7 @@ $home = array(
 			<a href="https://goo.gl/maps/XzBKdR9zaJ72" target="_blank">Ver en Google Maps</a><br>
 			<a href="https://www.facebook.com/TheCubanSpotInCozumel/">Visita nuestro Facebook</a>',
 			'img' => array(
-				'images/habano/cozumel.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/cozumel.png',''
 			), 
 			'visit'=>'La Casa del Habano Cozumel',
 			'link'=>'cozumel.php',
@@ -151,7 +151,7 @@ $home = array(
 			Teléfono: +52 998 840 7000<br>
 			<a href="https://goo.gl/maps/19biUGLbQp22" target="_blank">Ver en Google Maps</a><br>',
 			'img' => array(
-				'images/habano/cancun.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/cancun.png',''
 			), 
 			'visit'=>'La Casa del Habano Cancún',
 			'link'=>'cancun.php',
@@ -164,7 +164,7 @@ $home = array(
 			Teléfono: +52 624 143 7533<br>
 			<a href="https://goo.gl/maps/pzVXxphcmum" target="_blank">Ver en Google Maps</a>',
 			'img' => array(
-				'images/habano/cabos.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/cabos.png',''
 			), 
 			'visit'=>'Havana Cigar House & Mojito, Los Cabos',
 			'link'=>'cabos.php',
@@ -177,7 +177,7 @@ $home = array(
 			Teléfono: +52 664 688-33-39<br>
 			<a href="https://goo.gl/maps/FPAEbxsMYdQ2" target="_blank">Ver en Google Maps</a>',
 			'img' => array(
-				'images/habano/tijuana.png',''
+				'https://master-rhino-205702.firebaseapp.com/images/habano/tijuana.png',''
 			), 
 			'visit'=>'La Casa del Habano Tijuana',
 			'link'=>'tijuana.php',
@@ -191,7 +191,7 @@ $cozumel = array(
 	'title'=> 'La Casa del Habano Cozumel',
 	'sub_title'=> 'Los expertos en puros en México',
 	'navlogo'=>'images/logo.png',
-	'images'=> array( 'images/habano/slider.png',''),
+	'images'=> array( 'https://master-rhino-205702.firebaseapp.com/images/habano/slider.png',''),
 	'logo' => array( 'images/logo.png',''),
 //About Cozumel
 	'title_About'=>'Bienvenidos a la mejor terraza de Cozumel',
