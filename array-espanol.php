@@ -216,12 +216,12 @@ $cozumel = array(
 	'images_exp3'=> array( 'images/habano/experiences3.png',''),
 	'images_exp4'=> array( 'images/habano/experiences4.png',''),
 		
-	//Location Cozumel
+//Location Cozumel
 	'title_Loc'=>"Nuestro está climatizado y cuenta con ventanales y una terraza que te permitirán disfrutar de las mejores vistas al mar Caribe y unos atardeceres espectaculares. La combinación entre bebida, comida y música cubana sin duda representan el mejor ambiente para disfrutar de un auténtico puro cubano.",
 	'address'=>'Andador Benito Juárez esq. Malecón, Centro, Cozumel',
 	'phone'=>'Teléfono: 987 8689-1696',
-	'lat'=>21.2568147,
-	'lng'=>-86.7492857,
+	'lat'=>20.5110504,
+	'lng'=>-86.9496888,
 		//Footer Cozumel
 	'titleFooter'=>'La Casa del Habano Cozumel',
 	'addressFooter'=>'Andador Benito Juarez esq. Malecón, Centro Cozumel',
@@ -295,8 +295,8 @@ $cancun = array(
 	'title_Loc'=>"Nuestro bar está ubicado justo frente a la estación de policía, localizada cerca de la Plaza Kukulcan; estratégicamente en el centro de la zona hotelera, con la intención de estar más cerca de ti.",
 	'address'=>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 <br> Zona Hotelera Cancun Q.ROO C.P 77500',
 	'phone'=>'Teléfono: 998 8407000 y 998 8407001',
-	'lat'=>21.1022968,
-	'lng'=>-86.7659305,
+	'lat'=>21.1048887,
+	'lng'=>-86.7648663,
 	//Footer
 	'titleFooter'=>'CANCUN',
 	'addressFooter'=>'BLVD Kukulkan No 3, 4 Y 5 Km12.7 Zona Hotelera Cancun ',
@@ -361,8 +361,8 @@ $cabos = array(
 	'title_Loc'=>"Nuestro local está dentro de la plaza Puerto Paraíso y cuenta con una terraza con agradable con vista a la Marina de Cabo San Lucas, desde la que podrás disfrutar de tu puro al aire libre.",
 	'address'=>'Av. Lázaro Cardenas, Plaza Comercial Puerto Paraíso<br> El Medado, Cabo San Lucas.',
 	'phone'=>'Teléfono: 624 143-7533',
-	'lat'=>22.8866076,
-	'lng'=>-109.9116737,
+	'lat'=>22.8865677,
+	'lng'=>-109.9096332,
 
 	//Footer
 	'titleFooter'=>'LOS CABOS',
@@ -433,8 +433,8 @@ $tijuana = array(
 	'title_Loc'=>"Esta sucursal está estratégicamente localizada en la zona comercial de Tijuana, cerca de bares, restaurantes y bancos, y a unas pocas cuadras de la frontera con Estados Unidos.",
 	'address'=>'Avenida Revolución 1115 int. 13<br>Centro, Tijuana',
 	'phone'=>'Teléfono: 664 688-33-39 y 664 685-5248',
-	'lat'=>32.5316376,
-	'lng'=>-117.0389608,
+	'lat'=>32.5316172,
+	'lng'=>-117.0371637,
 	//Footer
 	'titleFooter'=>'TIJUANA',
 	'addressFooter'=>'Avenida Revolución No1115 INT 13 Zona Centro <br>Tjuana B.C C.P 22000 <br>Telefono: 664 688-33-39 y 664 685-5248 ',

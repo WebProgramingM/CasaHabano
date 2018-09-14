@@ -26,7 +26,7 @@ $home = array(
 	//About US Home
 	'title_About'=> 'About Us',
 	'content_About'=>
-		'<p class="lead mb-30">La Casa del Habano is the only franchise in the world authorized to commercialize the Cuban brands of Cigars through Habanos SA, which is the only company authorized by the Cuban State to commercialize their brands of tobacco.</p>
+		'<p class="lead mb-30"><strong>La Casa del Habano is the only franchise in the world authorized to commercialize the Cuban brands of Cigars through Habanos SA</strong>, which is the only company authorized by the Cuban State to commercialize their brands of tobacco.</p>
 		<p class="mb-40">Through our stores, we have become the largest distributor of Cuban cigars in Mexico.</p>',
      
      //History Home
@@ -191,8 +191,8 @@ $cozumel = array(
 	'address'=>'1 Andador Benito Juárez, Downtown Cozumel<br>
 	(right accross the ferris dock).',
 	'phone'=>'+52 987 8689-1696',
-	'lat'=>21.2568147,
-	'lng'=>-86.7492857,
+	'lat'=>20.5110504,
+	'lng'=>-86.9496888,
 	//Footer
 	'titleFooter'=>'COZUMEL',
 	'addressFooter'=>'Benito Juárez No1 Centro Cozumel',
@@ -265,9 +265,9 @@ $cancun = array(
 	'title_Loc'=>"Our cigar bar & loung is strategically located in the middle of Cancun's hotel zone so it is closer to you disregarding the hotel you are staying in.",
 	'address'=>'Km. 12.7 Kukulkan Blvd., Hotel Zone Cancun (in front of the police station near the Kukulcan Mall and right beside the OXXO).',
 	'phone'=>'Phone: 998 8407000 y 998 8407001',
-	'lat'=>21.1022968,
-	'lng'=>-86.7659305,
-	//Footer Cancún
+	'lat'=>21.1048887,
+	'lng'=>-86.7648663,
+		//Footer Cancún
 	'titleFooter'=>'La Casa del Habano Cancun',
 	'addressFooter'=>'Km. 12.7 Kukulkan Blvd., Hotel Zone Cancun',
 	'linkFooter'=>'https://goo.gl/maps/YbCWVxUfttS2',
@@ -331,8 +331,8 @@ $cabos = array(
 	'title_Loc'=>"Our bar its located in the Puerto Paraíso mall and its terrace features an elegant view to Cabo San Lucas’ marina; a great place to enjoy from your cigar & favorite drink.",
 	'address'=>'Lazaro Cardenas Blvs., Puerto Paraiso Mall',
 	'phone'=>'Phone: 624 143-7533',
-	'lat'=>22.8866076,
-	'lng'=>-109.9116737,
+	'lat'=>22.8865677,
+	'lng'=>-109.9096332,
 	//Footer Cabos
 	'titleFooter'=>'LOS CABOS',
 	'addressFooter'=>'BLVD Lázaro Cardena S/N LocalL L-41-A <br>El Medado Cabos San Lucas C.P 23410 <br>Referencia: Plaza Comercial Puerto Paraiso<br>Teléfono: 624 143-7533',
@@ -399,8 +399,8 @@ $tijuana = array(
 	'address'=>'1115 Revolucion AV.,<br>
 	Downtown, Tijuana',
 	'phone'=>'Phone: +52 664 688-33-39',
-	'lat'=>32.5316376,
-	'lng'=>-117.0389608,
+	'lat'=>32.5316172,
+	'lng'=>-117.0371637,
 	//Footer
 	'titleFooter'=>'TIJUANA',
 	'addressFooter'=>'Avenida Revolución No1115 INT 13 Zona Centro <br>Tjuana B.C C.P 22000 <br>Telefono: 664 688-33-39 y 664 685-5248 ',
