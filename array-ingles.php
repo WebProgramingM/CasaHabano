@@ -15,7 +15,7 @@ $op = array(
 			['About Us','#about'],
 			['Experiences','#experiences'],
 			['Location','#location'],
-			['Ranked','#ranked']
+			// ['Ranked','#ranked']
 		),
 
 	);
@@ -26,13 +26,13 @@ $home = array(
 	//About US Home
 	'title_About'=> 'About Us',
 	'content_About'=>
-		'<p class="lead mb-30"><strong>La Casa del Habano is the only franchise in the world authorized to commercialize the Cuban brands of Cigars through Habanos SA</strong>, which is the only company authorized by the Cuban State to commercialize their brands of tobacco.</p>
-		<p class="mb-40">Through our stores, we have become the largest distributor of Cuban cigars in Mexico.</p>',
+		'<p class="lead mb-30"><strong>La Casa del Habano is the official franchise of Habanos S.A.</strong>, the Cuban-State company that manufactures and exports the 27 brands of Cuban cigars.</p>
+		<p class="mb-40">Through our brands,<strong> La Casa del Habano and Havana Cigar House</strong>, we have become the largest distributor of certified Cuban cigars in Mexico. For that reason<<strong>we are the cigar experts in Mexico.</strong></p>',
      
      //History Home
      'title_History'=>'Cigar\'s Story',
-'content_History'=>'Indigenous people in America had been using tobacco before the Spaniard’s arrival. Actually, the word cigar originally derives from the Mayan sikar ("to smoke rolled tobacco leaves" – from "sic", "tobacco"). The Spanish word, "puro" spans the gap between the Mayan and modern use.',
-     'content_History2'=>"Because of the unique aroma and taste that tobacco gets because from its geographical location, Cuban tobacco is considered to be the best in the world.",
+'content_History'=>'THE WORD CIGAR ORIGINALLY DERIVES FROM THE MAYAN SIKAR ("TO SMOKE ROLLED TOBACCO LEAVES" – FROM "SIC", "TOBACCO"). THE SPANISH WORD.',
+     'content_History2'=>"Indigenous people in America had been using tobacco before the Spaniard’s arrival.  Because of the unique aroma and taste that tobacco gets because from its geographical location, Cuban tobacco is considered to be the best in the world. Nevertheless, other countries with great tobacco are Mexico, Dominican Republic, Nicaragua and Honduras. 'PURO' spans the gap between the mayan and modern use.",
 	
 	
 	'images'=> array(
@@ -80,18 +80,18 @@ $home = array(
 		],
 	),
 				//Brands Home
-			'title_Brands'=>'We Offer All of the Cuban Brands of Cigars',
+			'title_Brands'=>'We Offer All of the Cuban Brands Cigars',
 			'content_Brands'=>'Being the only authorized distributor of Habanos S.A, we not only have the best brands, but we have ALL brands of Cuban cigars. Among the brands that we handle are Cohiba, Montecristo, Partagas, Romeo and Julieta, Hoyo de Monterrey, H. Upmann and all the others.',
 			'content_Brands2'=>'All our cigars are authentic Cuban cigars and have all the security elements of Habanos S.A. Do not get fooled by pirates: according to the Mexican Law, original Cuban cigars (those imported from the Cuban factories), will have 70% of the outside of the box covered with messages discouraging the act of smoking... <strong>However, we believe that an authentic Cuban cigar is a joy every cigar connoisseurs should enjoy every once in a while.</strong>',
 			//... Nevertheless one should one of those every once in a while... Every once in a while. A true Cuban is a joy every human should enjoy every once in a while.
 			//certified, authentic, real, true
 			
 			//Experiences Home
-			'title_Experiences'=>'Experience It',
+			'title_Experiences'=>'Come enjoy the best Cuban experience',
 			'content_Experiences'=>"We are the biggest and most experienced cigar group in Mexico and we have cigar bars in Cozumel, Cancun, Puerto Vallarta, Tijuana, Isla Mujeres and Los Cabos. All of our locations are designed for you to enjoy your Cuban cigars. In all of our locations our personnel will be ready to serve you in the most professional and attentive way.",
 			
 			//Store Home
-			'title_Store'=>'Our Bars & Lounges',
+			'title_Store'=>'Our Cigar-Bars & Lounges',
 			'content_Store'=>'At our locations, you will be able to enjoy from your cigar in a comfortable place that will resemble the lounge of a luxurious hotel of New York.<br>
 		                  	Scroll down to get to know our locations and the unique features of each of our bars, their addresses, service hours and phone numbers.',
     'store'=> array(
@@ -154,6 +154,9 @@ $home = array(
 		
 	),
 	//Footer
+	'title_Footer'=>'CASA DEL HABANO',
+	'title_Footer2'=>'Our Other Stores ',
+	'title_Footer3'=>'Useful Links',
 	'addressFooter'=>'Benito Juárez No1 Centro Cozumel',
 	'linkFooter'=>'https://maps.google.com/?cid=707275755286104100',
 	'linkName'=>'See it on map',
@@ -168,18 +171,23 @@ $cozumel = array(
 
 		//About Coz
 	'title_About'=>'WELCOME TO OUR CIGAR BAR & TERRACE',
-	'content_About'=>'<strong><span class="color-black">La Casa del Habano Cozumel offers ALL the Cuban brands</span></strong>',
-	'blockquote_About'=>"
-		<p>Cozumel is one of the biggest and most complete of the Cigar House International group. In it, you will find the 27 brands commercialized by Habanos SA, the Cuban-state-owned company that is the only one allowed to export and commercialize certified Cuban cigars. Some of the brands you will find in our Cozumel store are Cohiba, Montecristo, Romeo y Julieta, Partagás, Hoyo de Monterrey, H. Upmann, Punch, Trinidad and Bolívar.</p>
-		
-		<br>
-		<p>Its Cuban atmosphere will make you feel like if you were sitting at the reception of the famous Hotel Nacional at Havana, Cuba. At our bar, Frank, our famous bartender, will prepare you the right drink for your taste to accompany your Cuban cigar.</p>",
+	'content_About'=>'<strong><span class="color-black">At La Casa del Habano Cozumel, our humidifier offers the 27 brands marketed by Habanos SA.</span></strong>',
+	'blockquote_About'=>"<p><strong>Here you will find Cohiba, Montecristo, Romeo and Julieta, Partagás, Hoyo de Monterrey, H. Upmann, Punch, Trinidad and Bolívar.</strong>
+	<br>
+	<br>
+	<p>Its Cuban atmosphere will make you feel as if you were sitting at the reception of the Hotel Nacional in Havana. In our Cozumel bar, Frank, our famous bartender, will prepare you just the right drink for your taste to accompany your premium Cuban cigar.</p>.
+	<br>
+	<br>
+	<p>In addition to the broadest repertoire of Cuban cigars and drinks in Cozumel, this cigar-bar & terrace also features a Cuban Chef who will prepare you the best dish to accompany the Cigar of your choice with your favorite drink.</p>
+	<br>
+	<br>
+		</p>",
 	'banner_about'=>'<h2 class="text-white"><b><i>"Smoking is indispensable if one has nothing to kiss."</b></i></h2>
 	<h5 class="text-white"> -Sigmund Freud</h5>',
 	
 	//Experience Coz
-	'title_Exp'=>'Experience It',
-	'content_Exp'=>"Besides the widest repertoire of certified cigars and drinks, our Cozumel store also features a Cuban Chef who will prepare you the best dish to accompany your certified cigar and your favorite drinks. Furthermore, after dinning time, La Casa del Habano Cozumel becomes the best club in Cozumel, it gets filled by locals who come to enjoy from Latin music live. At that time, you will find the best dancers on the island.",
+	'title_Exp'=>"“LA ÚNICA FORMA DE ROMPER UN MAL HÁBITO ERA REEMPLAZARLO CON UN HÁBITO MEJOR (EXPLICANDO POR QUÉ CAMBIÓ DE CIGARROS A PUROS).”",
+	'content_Exp'=> "– JACK NICHOLSON",
 
 	'images_exp'=> array( 'images/habano/experiences.png',''),
 	'images_exp2'=> array( 'images/habano/experiences2.png',''),
@@ -187,16 +195,15 @@ $cozumel = array(
 	'images_exp4'=> array( 'images/habano/experiences4.png',''),
 		
 	//Location Coz
-	'title_Loc'=>"Our Cozumel lounge is right across the ferris' dock and features a beautiful view to the Caribbean Sea. The perfect spot to enjoy from your Cuban cigar. The entrance is on the pedestrian-street.",
-	'address'=>'1 Andador Benito Juárez, Downtown Cozumel<br>
-	(right accross the ferris dock).',
+	'title_Loc'=>"Our air-conditioned cigar-bar is right across the ferris' dock and features a terrace from which you will be able to enjoy the best views of the beautiful Caribbean Sea and its spectacular sunsets.",
+	'address'=>'This is simply the perfect spot to enjoy your Cuban cigar. The entrance is on the pedestrian-street.',
 	'phone'=>'+52 987 8689-1696',
 	'lat'=>20.5110504,
 	'lng'=>-86.9496888,
 	//Footer
 	'titleFooter'=>'COZUMEL',
 	'addressFooter'=>'Benito Juárez No1 Centro Cozumel',
-	'linkFooter'=>'https://maps.google.com/?cid=707275755286104100',
+	'linkFooter'=>'https://goo.gl/maps/8NA37acnH9M2',
 	'linkName'=>'See it on map',
 	'seelink'=>'See it on map',
 	'store'=> array(
@@ -229,14 +236,16 @@ $cozumel = array(
 		// ],
 		[
 				'title' =>'icon-facebook-with-circle',
-			'link' =>'https://www.facebook.com/TheCubanSpotInCozumel/">Visit us on Facebook'
+			'link' =>'https://www.facebook.com/CigarsCozumel/'
 		],
 		[
 			'title' =>'icon-instagram-with-circle',
-			'link' =>'https://www.instagram.com/explore/locations/922710764/la-casa-del-habano-cozumel/'
+				'link' =>'https://www.instagram.com/casadelhabanocozumel/'
 		],
 	),
-
+	'footerlogo'=>'images/habano/logo_habana_cigars.png',
+	'title_Footer2'=>'Our Other Stores ',
+	'title_Footer3'=>'Useful Links',
 );
 $cancun = array(
 	'title'=> 'La Casa del Habano Cancún',
@@ -276,7 +285,7 @@ $cancun = array(
 		[	
 			'title' =>'La Casa del Habano Cozumel',
 			'address' =>'1 Andador Benito Juárez, downtown Cozumel',
-			'link' =>'https://goo.gl/maps/XzBKdR9zaJ72',
+			'link' =>'https://goo.gl/maps/8NA37acnH9M2',
 			'seelink'=>'See it on map'
 
 		],
@@ -308,6 +317,8 @@ $cancun = array(
 	// 		'link' =>'#'
 	// 	],
 	// ),
+	'title_Footer2'=>'Our Other Stores ',
+	'title_Footer3'=>'Useful Links',
 );
 $cabos = array(
 	'title'=> 'Havana CIgar House & Mojito Los Cabos ',
@@ -342,7 +353,7 @@ $cabos = array(
 		[
 			'title' =>'COZUMEL',
 			'address' =>'Benito Juárez No1 Centro Cozumel',
-			'link' =>'https://maps.google.com/?cid=707275755286104100',
+			'link' =>'https://goo.gl/maps/8NA37acnH9M2',
 			'seelink'=>'See it on map'
 
 		],
@@ -375,6 +386,8 @@ $cabos = array(
 	// 		'link' =>'#'
 	// 	],
 	// ),
+	'title_Footer2'=>'Our Other Stores ',
+	'title_Footer3'=>'Useful Links',
 );
 $tijuana = array(
 	'title'=> 'La Casa del Habano Tijuana',
@@ -410,7 +423,7 @@ $tijuana = array(
 		[
 			'title' =>'COZUMEL',
 			'address' =>'Benito Juárez No1 Centro Cozumel',
-			'link' =>'https://maps.google.com/?cid=707275755286104100',
+			'link' =>'https://goo.gl/maps/8NA37acnH9M2',
 			'seelink'=>'See it on map'
 
 		],
@@ -442,5 +455,7 @@ $tijuana = array(
 	// 		'link' =>'#'
 	// 	],
 	// ),
+	'title_Footer2'=>'Our Other Stores ',
+	'title_Footer3'=>'Useful Links',
 );
 ?>

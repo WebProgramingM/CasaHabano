@@ -13,9 +13,9 @@ $op = array(
 	'desNav' => array(
 		['Inicio','#home'],
 		['Nosotros','#about'],
-		['Experiences','#experiences'],
-		['Ubicacion','#location'],
-		['Clasificado','#ranked']
+		['Experiencia','#experiences'],
+		['Ubicación','#location'],
+		// ['Clasificado','#ranked']
 	),
 	'titleFooter'=>'COZUMEL',
 	'addressFooter'=>'Benito Juárez No1 Centro Cozumel',
@@ -112,19 +112,19 @@ $home = array(
 		],
 	),
 	
-//Brands Home
-	'title_Brands'=>'Nuestras marcas',
+	//Brands Home
+	'title_Brands'=>'Ofrecemos todas las marcas de puros cubanos',
 	'content_Brands'=>'Al ser el único distribuidor autorizado de Habanos S.A, no solo tenemos las mejores marcas, sino que ofrecemos TODAS las marcas de puros cubanos. Entre las marcas que manejamos están Cohiba, Montecristo, Partagás, Romeo y Julieta, Hoyo de Monterrey, H. Upmann y todas las demás.',
 	'content_Brands2'=>'Todos nuestros puros son auténticos puros cubanos y cuentan con todos los elementos de seguridad de Habanos S.A. No te dejes engañar por las personas que ofrecen puros pirata a precios de puros cubanos auténticos: una caja de puros puros originales en México, por Ley, debe tener mínimo el 70% de la caja cubierta con calcomanías que desalientan el fumar.',
 	
 	//Experiences Home
-	'title_Experiences'=>'Diseñamos la mejor experiencia para ti',
+	'title_Experiences'=>'Disfruta de la mejor experiencia',
 	'content_Experiences'=>"Todos nuestros bares están especialmente diseñados para ofrecerte la mejor experiencia para disfrutar de tu puro cubano. En todos nuestros locales, además de todas las marcas de puros cubanos, encontrarás un cómodo lugar en donde sentarte para disfrutar de tu puro, de un buen café cubano, un mojito o la bebida de tu preferencia. En todas nuestras sucursales, nuestro personal estará listo para atenderte de la manera mejor manera posible.",
 
 	//podrás disfrutar de tu puro en un lugar cómodo que te hará sentir como en el lobby de un lujoso hotel de Nueva York. En todas nuestras ubicaciones, nuestro personal te atenderá de manera profesional y atenta. En muchas de nuestras sucursales también encontrarás una barrar en la que  
 	
 	//Store Home
-	'title_Store'=>'Nuestros bares',
+	'title_Store'=>'Nuestros bares y <i>lounges</i> de puros',
 	'content_Store'=>'En todos nuestrós bares, podrás disfrutar de tu puro en un lugar cómodo que se asemejará a la sala de estar de un lujoso hotel de Nueva York. Nuestro personal estará encantado de atenderte de la manera más profesional y atenta.<br>
 		<br>
 	    Más abajo podrás conocer las características únicas de cada uno de nuestros locales, horas de servicio y números de teléfono.<br>',
@@ -134,7 +134,7 @@ $home = array(
 			'title' =>'La Casa del Habano Cozumel' ,
 			'description' => 'Andador Benito Juárez 1 esq. malecón (frente al muelle de los ferris), Centro, Cozumel<br>
 			Teléfono: 987 8689-1696<br>
-			<a href="https://goo.gl/maps/XzBKdR9zaJ72" target="_blank">Ver en Google Maps</a><br>
+			<a href="https://goo.gl/maps/8NA37acnH9M2" target="_blank">Ver en Google Maps</a><br>
 			<a href="https://www.facebook.com/TheCubanSpotInCozumel/">Visita nuestro Facebook</a>',
 			'img' => array(
 				'images/habano/cozumel.png',''
@@ -185,6 +185,13 @@ $home = array(
 		],
 		
 	),
+	//Footer
+	'title_Footer'=>'CASA DEL HABANO',
+	'title_Footer2'=>'Nuestras otras tiendas',
+	'title_Footer3'=>'Ligas útiles',
+	'addressFooter'=>'Benito Juárez No1 Centro Cozumel',
+	'linkFooter'=>'https://maps.google.com/?cid=707275755286104100',
+	'linkName'=>'Visita la página',
 
 );
 $cozumel = array(
@@ -209,23 +216,23 @@ $cozumel = array(
 	'banner_about'=>'<h2 class="text-white"><strong><em>“La única forma de romper un mal hábito era reemplazarlo con un hábito mejor (explicando por qué cambió de cigarros a puros)."</strong></em></h2><h5 class="text-white">– Jack Nicholson</h5>',
 	
 	//Experience Cozumel
-	'title_Exp'=>'"Fumar es indispensable cuando no se tiene nada qué besar"',
-	'content_Exp'=>" - Sigmund Freud",
+	'title_Exp'=>"“LA ÚNICA FORMA DE ROMPER UN MAL HÁBITO ERA REEMPLAZARLO CON UN HÁBITO MEJOR (EXPLICANDO POR QUÉ CAMBIÓ DE CIGARROS A PUROS).”",
+	'content_Exp'=> "– JACK NICHOLSON",
 	'images_exp'=> array( 'images/habano/experiences.png',''),
 	'images_exp2'=> array( 'images/habano/experiences2.png',''),
 	'images_exp3'=> array( 'images/habano/experiences3.png',''),
 	'images_exp4'=> array( 'images/habano/experiences4.png',''),
 		
 //Location Cozumel
-	'title_Loc'=>"Nuestro está climatizado y cuenta con ventanales y una terraza que te permitirán disfrutar de las mejores vistas al mar Caribe y unos atardeceres espectaculares. La combinación entre bebida, comida y música cubana sin duda representan el mejor ambiente para disfrutar de un auténtico puro cubano.",
-	'address'=>'Andador Benito Juárez esq. Malecón, Centro, Cozumel',
+	'title_Loc'=>"Nuestro bar tiene aire acondicionado y  está justo frente al muelle de los ferris. También cuenta con una terraza desde la que podrás disfrutar de las mejores vistas del hermoso mar Caribe y sus espectaculares puestas de sol.",
+	'address'=>'Este es simplemente el lugar perfecto para disfrutar un buen puro cubano. La entrada está en la calle peatonal.',
 	'phone'=>'Teléfono: 987 8689-1696',
 	'lat'=>20.5110504,
 	'lng'=>-86.9496888,
 		//Footer Cozumel
 	'titleFooter'=>'La Casa del Habano Cozumel',
 	'addressFooter'=>'Andador Benito Juarez esq. Malecón, Centro Cozumel',
-	'linkFooter'=>'https://goo.gl/maps/9zd5P9jSxvL2',
+	'linkFooter'=>'https://goo.gl/maps/8NA37acnH9M2',
 	'seelink'=>'ver en el mapa',
 	'store'=> array(
 		[
@@ -258,15 +265,16 @@ $cozumel = array(
 		// ],
 		[
 			'title' =>'icon-facebook-with-circle',
-			'link' =>'https://www.facebook.com/TheCubanSpotInCozumel/">Visit us on Facebook'
+			'link' =>'https://www.facebook.com/CigarsCozumel/'
 		],
 		[
 			'title' =>'icon-instagram-with-circle',
-			'link' =>'https://www.instagram.com/explore/locations/922710764/la-casa-del-habano-cozumel/'
+			'link' =>'https://www.instagram.com/casadelhabanocozumel/'
 		],
 	),
-
-
+	'footerlogo'=>'images/habano/logo_habana_cigars.png',
+		'title_Footer2'=>'Nuestras otras tiendas',
+	'title_Footer3'=>'Ligas útiles',
 );
 $cancun = array(
 	'title'=> 'La Casa del Habano Cancún',
@@ -306,7 +314,7 @@ $cancun = array(
 		[
 			'title' =>'COZUMEL',
 			'address' =>'Benito Juárez No1 Centro Cozumel',
-			'link' =>'https://maps.google.com/?cid=707275755286104100',
+			'link' =>'https://goo.gl/maps/8NA37acnH9M2',
 			'seelink'=>'ver en el mapa'
 
 		],
@@ -338,6 +346,8 @@ $cancun = array(
 	// 		'link' =>'#'
 	// 	],
 	// ),
+	'title_Footer2'=>'Nuestras otras tiendas',
+	'title_Footer3'=>'Ligas útiles',
 );
 $cabos = array(
 	'title'=> 'Havana Cigar House & Mojito',
@@ -373,7 +383,7 @@ $cabos = array(
 		[
 			'title' =>'COZUMEL',
 			'address' =>'Benito Juárez No1 Centro Cozumel',
-			'link' =>'https://maps.google.com/?cid=707275755286104100',
+			'link' =>'https://goo.gl/maps/8NA37acnH9M2',
 			'seelink'=>'ver en el mapa'
 
 		],
@@ -406,6 +416,8 @@ $cabos = array(
 	// 		'link' =>'#'
 	// 	],
 	// ),
+		'title_Footer2'=>'Nuestras otras tiendas',
+	'title_Footer3'=>'Ligas útiles',
 );
 $tijuana = array(
 	'title'=> ' La Casa del Habano Tijuana',
@@ -444,7 +456,7 @@ $tijuana = array(
 		[
 			'title' =>'COZUMEL',
 			'address' =>'Benito Juárez No1 Centro Cozumel',
-			'link' =>'https://maps.google.com/?cid=707275755286104100',
+			'link' =>'https://goo.gl/maps/8NA37acnH9M2',
 			'seelink'=>'ver en el mapa'
 
 		],
@@ -476,6 +488,8 @@ $tijuana = array(
 	// 		'link' =>'#'
 	// 	],
 	// ),
+	'title_Footer2'=>'Nuestras otras tiendas',
+	'title_Footer3'=>'Ligas útiles',
 );
 
 ?>
