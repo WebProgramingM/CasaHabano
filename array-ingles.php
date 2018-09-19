@@ -186,8 +186,8 @@ $cozumel = array(
 	<h5 class="text-white"> -Sigmund Freud</h5>',
 	
 	//Experience Coz
-	'title_Exp'=>"“LA ÚNICA FORMA DE ROMPER UN MAL HÁBITO ERA REEMPLAZARLO CON UN HÁBITO MEJOR (EXPLICANDO POR QUÉ CAMBIÓ DE CIGARROS A PUROS).”",
-	'content_Exp'=> "– JACK NICHOLSON",
+	'title_Exp'=>"“The only way to break a bad habit was to replace it with a better habit.” (explaining why he switched from cigarettes to cigars)",
+	'content_Exp'=> "– Jack Nicholson",
 
 	'images_exp'=> array( 'images/habano/experiences.png',''),
 	'images_exp2'=> array( 'images/habano/experiences2.png',''),
