@@ -140,7 +140,7 @@ $home = array(
 				'images/habano/cozumel.png',''
 			), 
 			'visit'=>'La Casa del Habano Cozumel',
-			'link'=>'cozumel.php',
+			'link'=>'cozumel-cuban-cigar-salsa-bar-havana-bobs-lcdh.php',
 			'seelink'=>'ver en el mapa'
 		],
 		[
@@ -154,7 +154,7 @@ $home = array(
 				'images/habano/cancun.png',''
 			), 
 			'visit'=>'La Casa del Habano Cancún',
-			'link'=>'cancun.php',
+			'link'=>'cancun-cuban-cigar-bar-restaurant-havana-humidor-lcdh.php',
 			'seelink'=>'ver en el mapa'
 		],
 		[
@@ -167,7 +167,7 @@ $home = array(
 				'images/habano/cabos.png',''
 			), 
 			'visit'=>'Havana Cigar House & Mojito, Los Cabos',
-			'link'=>'cabos.php',
+			'link'=>'havana-cigar-house-cuban-bar-cabo-san-lucas-humidor.php',
 			'seelink'=>'ver en el mapa'
 		],
 		[
@@ -180,7 +180,7 @@ $home = array(
 				'images/habano/tijuana.png',''
 			), 
 			'visit'=>'La Casa del Habano Tijuana',
-			'link'=>'tijuana.php',
+			'link'=>'tijuana-cuban-cigar-bar-humidor-lcdh-habana.php',
 			'seelink'=>'ver en el mapa'
 		],
 		
