@@ -5,10 +5,13 @@
 	<title>{{title}}</title>
 	<meta charset="UTF-8" />
     <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+      <meta name="description" content="The Cigar Experts of Mexico">
+  <meta name="keywords" content="cozumel, cuban cigars, bar, lcdh, la casa del habano, havana club, bob's, salsa, restaurant, humidor">
+  <meta name="author" content="Anastacios Psaltidis">
     <meta name="twitter:widgets:theme" content="light">
-    <meta property="og:title" content="Your-Title-Here" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="Your-Image-Url" />
+    <meta property="og:title" content="Cigars Mexico" />
+    <meta property="og:type" content="www.cigarsmexico.com.mx" />
+    <meta property="og:image" content="http://www.cigarsmexico.com.mx/ms-icon-310x310.png" />
     <meta property="og:description" content="Your-Page-Description" />
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -76,6 +79,24 @@
 <script src="js/main.min.js" async></script>
 {% block extrajs %}
 {% endblock %}
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=install_email
+  page_id="379922952207979"
+  theme_color="#7B2630"
+  logged_in_greeting="Hi! How can we help you? We have the best Cuban cigars and rums in Cozumel."
+  logged_out_greeting="Hi! How can we help you? We have the best Cuban cigars and rums in Cozumel.">
+</div>
 </body>
 </html>
 {% endspaceless %}
